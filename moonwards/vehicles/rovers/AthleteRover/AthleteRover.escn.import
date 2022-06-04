@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/satellite-dish.escn-ca47e221db2d9c74ae7a9e0fe91dd0f5.scn"
+path="res://.import/AthleteRover.escn-33e430cf6717169b7b3bd5a13cf0037c.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/buildings/satellite-dish.escn"
-dest_files=[ "res://.import/satellite-dish.escn-ca47e221db2d9c74ae7a9e0fe91dd0f5.scn" ]
+source_file="res://addons/moonwards/vehicles/rovers/AthleteRover/AthleteRover.escn"
+dest_files=[ "res://.import/AthleteRover.escn-33e430cf6717169b7b3bd5a13cf0037c.scn" ]
 
 [params]
 
