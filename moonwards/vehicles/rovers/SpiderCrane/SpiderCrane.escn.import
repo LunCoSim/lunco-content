@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SpiderCrane.escn-e48f4fdd969cb0863f9be5e60d21581d.scn"
+path="res://.import/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
-dest_files=[ "res://.import/SpiderCrane.escn-e48f4fdd969cb0863f9be5e60d21581d.scn" ]
+source_file="res://content/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
+dest_files=[ "res://.import/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn" ]
 
 [params]
 

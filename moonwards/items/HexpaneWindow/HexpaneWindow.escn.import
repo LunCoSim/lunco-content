@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/HexpaneWindow.escn-246b6ac2a38162da1a06b08e5a58195b.scn"
+path="res://.import/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
-dest_files=[ "res://.import/HexpaneWindow.escn-246b6ac2a38162da1a06b08e5a58195b.scn" ]
+source_file="res://content/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
+dest_files=[ "res://.import/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/ScooterBin.escn-687a1e6f4a83f2cd85ba31c7cb456306.scn"
+path="res://.import/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/items/ScooterBin/ScooterBin.escn"
-dest_files=[ "res://.import/ScooterBin.escn-687a1e6f4a83f2cd85ba31c7cb456306.scn" ]
+source_file="res://content/moonwards/items/ScooterBin/ScooterBin.escn"
+dest_files=[ "res://.import/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn" ]
 
 [params]
 

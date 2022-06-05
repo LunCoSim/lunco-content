@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Starship_Base_Color.png-3e19698af1909d3f3c7b78d700a5bfb1.s3tc.stex"
-path.etc="res://.import/Starship_Base_Color.png-3e19698af1909d3f3c7b78d700a5bfb1.etc.stex"
+path.s3tc="res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.s3tc.stex"
+path.etc="res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/spacex-starship/textures/Starship_Base_Color.png"
-dest_files=[ "res://.import/Starship_Base_Color.png-3e19698af1909d3f3c7b78d700a5bfb1.s3tc.stex", "res://.import/Starship_Base_Color.png-3e19698af1909d3f3c7b78d700a5bfb1.etc.stex" ]
+source_file="res://content/spacex-starship/textures/Starship_Base_Color.png"
+dest_files=[ "res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.s3tc.stex", "res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.etc.stex" ]
 
 [params]
 

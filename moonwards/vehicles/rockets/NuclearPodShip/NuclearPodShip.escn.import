@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/NuclearPodShip.escn-40de15c2246e2efe3c9e04edc5a0fc36.scn"
+path="res://.import/NuclearPodShip.escn-45db8e10a34a958f9fca2037dc2c7cb2.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/vehicles/rockets/NuclearPodShip/NuclearPodShip.escn"
-dest_files=[ "res://.import/NuclearPodShip.escn-40de15c2246e2efe3c9e04edc5a0fc36.scn" ]
+source_file="res://content/moonwards/vehicles/rockets/NuclearPodShip/NuclearPodShip.escn"
+dest_files=[ "res://.import/NuclearPodShip.escn-45db8e10a34a958f9fca2037dc2c7cb2.scn" ]
 
 [params]
 

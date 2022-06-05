@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/android-kiosk.escn-bbadaa2349decb01bd71f7b164c644fc.scn"
+path="res://.import/android-kiosk.escn-ba44ad0b6d8e0a75bd1e6d89b053a6c9.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/buildings/android-kiosk/android-kiosk.escn"
-dest_files=[ "res://.import/android-kiosk.escn-bbadaa2349decb01bd71f7b164c644fc.scn" ]
+source_file="res://content/moonwards/buildings/android-kiosk/android-kiosk.escn"
+dest_files=[ "res://.import/android-kiosk.escn-ba44ad0b6d8e0a75bd1e6d89b053a6c9.scn" ]
 
 [params]
 

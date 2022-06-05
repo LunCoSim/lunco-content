@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Earth.jpeg-363c5cd964e3d8eaff23aea7435a2050.s3tc.stex"
-path.etc="res://.import/Earth.jpeg-363c5cd964e3d8eaff23aea7435a2050.etc.stex"
+path.s3tc="res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.s3tc.stex"
+path.etc="res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/planets/Earth.jpeg"
-dest_files=[ "res://.import/Earth.jpeg-363c5cd964e3d8eaff23aea7435a2050.s3tc.stex", "res://.import/Earth.jpeg-363c5cd964e3d8eaff23aea7435a2050.etc.stex" ]
+source_file="res://content/planets/Earth.jpeg"
+dest_files=[ "res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.s3tc.stex", "res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.etc.stex" ]
 
 [params]
 

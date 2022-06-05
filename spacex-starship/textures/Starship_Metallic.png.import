@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Starship_Metallic.png-c07789612eed9c7e44287d4d7a174348.s3tc.stex"
-path.etc="res://.import/Starship_Metallic.png-c07789612eed9c7e44287d4d7a174348.etc.stex"
+path.s3tc="res://.import/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.s3tc.stex"
+path.etc="res://.import/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/spacex-starship/textures/Starship_Metallic.png"
-dest_files=[ "res://.import/Starship_Metallic.png-c07789612eed9c7e44287d4d7a174348.s3tc.stex", "res://.import/Starship_Metallic.png-c07789612eed9c7e44287d4d7a174348.etc.stex" ]
+source_file="res://content/spacex-starship/textures/Starship_Metallic.png"
+dest_files=[ "res://.import/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.s3tc.stex", "res://.import/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.etc.stex" ]
 
 [params]
 

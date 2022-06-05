@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Starship_Normal_DirectX.png-999c94601f59d3acbc63025e1f78f7fa.s3tc.stex"
-path.etc="res://.import/Starship_Normal_DirectX.png-999c94601f59d3acbc63025e1f78f7fa.etc.stex"
+path.s3tc="res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.s3tc.stex"
+path.etc="res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/spacex-starship/textures/Starship_Normal_DirectX.png"
-dest_files=[ "res://.import/Starship_Normal_DirectX.png-999c94601f59d3acbc63025e1f78f7fa.s3tc.stex", "res://.import/Starship_Normal_DirectX.png-999c94601f59d3acbc63025e1f78f7fa.etc.stex" ]
+source_file="res://content/spacex-starship/textures/Starship_Normal_DirectX.png"
+dest_files=[ "res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.s3tc.stex", "res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.etc.stex" ]
 
 [params]
 

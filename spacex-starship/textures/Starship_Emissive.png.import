@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Starship_Emissive.png-b0f142cd1120d0cf34e6d026cbcdd6a7.s3tc.stex"
-path.etc="res://.import/Starship_Emissive.png-b0f142cd1120d0cf34e6d026cbcdd6a7.etc.stex"
+path.s3tc="res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.s3tc.stex"
+path.etc="res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/spacex-starship/textures/Starship_Emissive.png"
-dest_files=[ "res://.import/Starship_Emissive.png-b0f142cd1120d0cf34e6d026cbcdd6a7.s3tc.stex", "res://.import/Starship_Emissive.png-b0f142cd1120d0cf34e6d026cbcdd6a7.etc.stex" ]
+source_file="res://content/spacex-starship/textures/Starship_Emissive.png"
+dest_files=[ "res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.s3tc.stex", "res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.etc.stex" ]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/Starship_Roughness.png-376b5f68c47d2764858f1691f8115afd.s3tc.stex"
-path.etc="res://.import/Starship_Roughness.png-376b5f68c47d2764858f1691f8115afd.etc.stex"
+path.s3tc="res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.s3tc.stex"
+path.etc="res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.etc.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/spacex-starship/textures/Starship_Roughness.png"
-dest_files=[ "res://.import/Starship_Roughness.png-376b5f68c47d2764858f1691f8115afd.s3tc.stex", "res://.import/Starship_Roughness.png-376b5f68c47d2764858f1691f8115afd.etc.stex" ]
+source_file="res://content/spacex-starship/textures/Starship_Roughness.png"
+dest_files=[ "res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.s3tc.stex", "res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.etc.stex" ]
 
 [params]
 

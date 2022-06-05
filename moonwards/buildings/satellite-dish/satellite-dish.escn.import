@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/satellite-dish.escn-4a775d0da7f67448b5aeeca1066aa1ca.scn"
+path="res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/buildings/satellite-dish/satellite-dish.escn"
-dest_files=[ "res://.import/satellite-dish.escn-4a775d0da7f67448b5aeeca1066aa1ca.scn" ]
+source_file="res://content/moonwards/buildings/satellite-dish/satellite-dish.escn"
+dest_files=[ "res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn" ]
 
 [params]
 

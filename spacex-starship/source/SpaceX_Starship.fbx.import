@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SpaceX_Starship.fbx-87c73de8b6cd56aa29a3a65cc4c80036.scn"
+path="res://.import/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn"
 
 [deps]
 
-source_file="res://addons/spacex-starship/source/SpaceX_Starship.fbx"
-dest_files=[ "res://.import/SpaceX_Starship.fbx-87c73de8b6cd56aa29a3a65cc4c80036.scn" ]
+source_file="res://content/spacex-starship/source/SpaceX_Starship.fbx"
+dest_files=[ "res://.import/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/nuclear-core.escn-388ab2ecf0da33da7fd0d600d7dd2595.scn"
+path="res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn"
 
 [deps]
 
-source_file="res://addons/moonwards/buildings/nuclear-core/nuclear-core.escn"
-dest_files=[ "res://.import/nuclear-core.escn-388ab2ecf0da33da7fd0d600d7dd2595.scn" ]
+source_file="res://content/moonwards/buildings/nuclear-core/nuclear-core.escn"
+dest_files=[ "res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn" ]
 
 [params]
 
