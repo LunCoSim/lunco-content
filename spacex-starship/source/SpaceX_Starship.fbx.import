@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn"
+path="res://.import/SpaceX_Starship.fbx-8b2c9a7e348f08cbb716c44fd5513c04.scn"
 
 [deps]
 
 source_file="res://addons/lunco-content/spacex-starship/source/SpaceX_Starship.fbx"
-dest_files=[ "res://.import/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn" ]
+dest_files=[ "res://.import/SpaceX_Starship.fbx-8b2c9a7e348f08cbb716c44fd5513c04.scn" ]
 
 [params]
 

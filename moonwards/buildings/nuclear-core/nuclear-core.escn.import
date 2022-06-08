@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn"
+path="res://.import/nuclear-core.escn-172f6282c5fe01ef57afc1e6fe967f85.scn"
 
 [deps]
 
 source_file="res://addons/lunco-content/moonwards/buildings/nuclear-core/nuclear-core.escn"
-dest_files=[ "res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn" ]
+dest_files=[ "res://.import/nuclear-core.escn-172f6282c5fe01ef57afc1e6fe967f85.scn" ]
 
 [params]
 

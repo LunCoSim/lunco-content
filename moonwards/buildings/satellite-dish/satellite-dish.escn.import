@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn"
+path="res://.import/satellite-dish.escn-3520551575c45b9d51e94b126b8b025b.scn"
 
 [deps]
 
 source_file="res://addons/lunco-content/moonwards/buildings/satellite-dish/satellite-dish.escn"
-dest_files=[ "res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn" ]
+dest_files=[ "res://.import/satellite-dish.escn-3520551575c45b9d51e94b126b8b025b.scn" ]
 
 [params]
 

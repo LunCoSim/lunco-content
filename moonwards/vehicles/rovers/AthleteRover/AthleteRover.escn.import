@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/AthleteRover.escn-5f4b0ff69cf27203ac2313906df6e8d7.scn"
+path="res://.import/AthleteRover.escn-41831af4ce6390a5c92af9481d76c27e.scn"
 
 [deps]
 
 source_file="res://addons/lunco-content/moonwards/vehicles/rovers/AthleteRover/AthleteRover.escn"
-dest_files=[ "res://.import/AthleteRover.escn-5f4b0ff69cf27203ac2313906df6e8d7.scn" ]
+dest_files=[ "res://.import/AthleteRover.escn-41831af4ce6390a5c92af9481d76c27e.scn" ]
 
 [params]
 
