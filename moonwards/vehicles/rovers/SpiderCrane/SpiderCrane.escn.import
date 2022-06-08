@@ -6,7 +6,7 @@ path="res://.import/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn"
 
 [deps]
 
-source_file="res://content/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
+source_file="res://addons/lunco-content/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
 dest_files=[ "res://.import/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn" ]
 
 [params]

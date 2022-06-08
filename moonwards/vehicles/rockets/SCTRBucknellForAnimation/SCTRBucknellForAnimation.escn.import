@@ -6,7 +6,7 @@ path="res://.import/SCTRBucknellForAnimation.escn-7568c1fb84705a783b61477b002c61
 
 [deps]
 
-source_file="res://content/moonwards/vehicles/rockets/SCTRBucknellForAnimation/SCTRBucknellForAnimation.escn"
+source_file="res://addons/lunco-content/moonwards/vehicles/rockets/SCTRBucknellForAnimation/SCTRBucknellForAnimation.escn"
 dest_files=[ "res://.import/SCTRBucknellForAnimation.escn-7568c1fb84705a783b61477b002c6190.scn" ]
 
 [params]

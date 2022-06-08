@@ -6,7 +6,7 @@ path="res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn"
 
 [deps]
 
-source_file="res://content/moonwards/buildings/nuclear-core/nuclear-core.escn"
+source_file="res://addons/lunco-content/moonwards/buildings/nuclear-core/nuclear-core.escn"
 dest_files=[ "res://.import/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn" ]
 
 [params]

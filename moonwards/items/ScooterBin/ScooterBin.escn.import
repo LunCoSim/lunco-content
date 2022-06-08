@@ -6,7 +6,7 @@ path="res://.import/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn"
 
 [deps]
 
-source_file="res://content/moonwards/items/ScooterBin/ScooterBin.escn"
+source_file="res://addons/lunco-content/moonwards/items/ScooterBin/ScooterBin.escn"
 dest_files=[ "res://.import/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn" ]
 
 [params]

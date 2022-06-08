@@ -6,7 +6,7 @@ path="res://.import/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn"
 
 [deps]
 
-source_file="res://content/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
+source_file="res://addons/lunco-content/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
 dest_files=[ "res://.import/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn" ]
 
 [params]

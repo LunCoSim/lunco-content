@@ -6,7 +6,7 @@ path="res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn"
 
 [deps]
 
-source_file="res://content/moonwards/buildings/satellite-dish/satellite-dish.escn"
+source_file="res://addons/lunco-content/moonwards/buildings/satellite-dish/satellite-dish.escn"
 dest_files=[ "res://.import/satellite-dish.escn-26573b8daa424f4aa883db1e257b755c.scn" ]
 
 [params]

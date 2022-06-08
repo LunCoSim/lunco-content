@@ -6,7 +6,7 @@ path="res://.import/Android.escn-3ecb46f853301cd005425033d375bcda.scn"
 
 [deps]
 
-source_file="res://content/moonwards/characters/Android/Android.escn"
+source_file="res://addons/lunco-content/moonwards/characters/Android/Android.escn"
 dest_files=[ "res://.import/Android.escn-3ecb46f853301cd005425033d375bcda.scn" ]
 
 [params]

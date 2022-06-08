@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Roughness.png"
+source_file="res://addons/lunco-content/spacex-starship/textures/Starship_Roughness.png"
 dest_files=[ "res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.s3tc.stex", "res://.import/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.etc.stex" ]
 
 [params]

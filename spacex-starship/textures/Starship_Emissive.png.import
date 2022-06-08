@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Emissive.png"
+source_file="res://addons/lunco-content/spacex-starship/textures/Starship_Emissive.png"
 dest_files=[ "res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.s3tc.stex", "res://.import/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.etc.stex" ]
 
 [params]

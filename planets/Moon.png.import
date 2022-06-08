@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/planets/Moon.png"
+source_file="res://addons/lunco-content/planets/Moon.png"
 dest_files=[ "res://.import/Moon.png-25cc0eba3715a08eef29b008a703a2af.s3tc.stex", "res://.import/Moon.png-25cc0eba3715a08eef29b008a703a2af.etc.stex" ]
 
 [params]

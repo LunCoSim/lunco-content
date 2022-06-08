@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/planets/Earth.jpeg"
+source_file="res://addons/lunco-content/planets/Earth.jpeg"
 dest_files=[ "res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.s3tc.stex", "res://.import/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.etc.stex" ]
 
 [params]

@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Normal_DirectX.png"
+source_file="res://addons/lunco-content/spacex-starship/textures/Starship_Normal_DirectX.png"
 dest_files=[ "res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.s3tc.stex", "res://.import/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.etc.stex" ]
 
 [params]

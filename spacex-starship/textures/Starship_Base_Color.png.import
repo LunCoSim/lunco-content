@@ -11,7 +11,7 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Base_Color.png"
+source_file="res://addons/lunco-content/spacex-starship/textures/Starship_Base_Color.png"
 dest_files=[ "res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.s3tc.stex", "res://.import/Starship_Base_Color.png-9b9db2ad8a7d8d4a6b553f690a2c46ed.etc.stex" ]
 
 [params]

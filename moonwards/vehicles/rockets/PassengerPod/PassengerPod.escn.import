@@ -6,7 +6,7 @@ path="res://.import/PassengerPod.escn-be92e056efe3686b6e9c16cba062efd1.scn"
 
 [deps]
 
-source_file="res://content/moonwards/vehicles/rockets/PassengerPod/PassengerPod.escn"
+source_file="res://addons/lunco-content/moonwards/vehicles/rockets/PassengerPod/PassengerPod.escn"
 dest_files=[ "res://.import/PassengerPod.escn-be92e056efe3686b6e9c16cba062efd1.scn" ]
 
 [params]
