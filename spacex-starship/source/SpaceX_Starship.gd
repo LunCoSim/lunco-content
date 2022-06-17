@@ -1,12 +1,10 @@
 extends Spatial
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+onready var parent: lnSpacecraft = get_parent()
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-func _on_SpacecraftControl_thrust(enabled):
+func _process(delta):
+	$Exhause.direction = parent.global_transform.basis.z
+	$Exhause.initial_velocity = -10
+	
+func _on_SpacecraftController_thrust(enabled):
 	$Exhause.emitting = enabled
