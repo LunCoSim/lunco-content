@@ -18,6 +18,7 @@ script = ExtResource( 2 )
 
 [node name="Exhause" type="CPUParticles" parent="." index="1"]
 transform = Transform( 0.999984, 1.8261e-09, -0.00570733, -1.95419e-09, 1, -2.24381e-08, 0.00570733, 2.24489e-08, 0.999984, 0.101104, 0.389361, -1.46298 )
+emitting = false
 amount = 40
 lifetime = 1.78
 local_coords = false
