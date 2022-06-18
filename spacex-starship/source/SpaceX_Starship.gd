@@ -1,6 +1,7 @@
 extends Spatial
 
-onready var parent: lnSpacecraft = get_parent()
+# onready var parent: lnSpacecraft = get_parent()
+onready var parent = get_parent()
 
 func _process(delta):
 	$Exhause.direction = parent.global_transform.basis.z
