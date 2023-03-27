@@ -1,0 +1,45 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://be8yh24drxnon"
+path="res://.godot/imported/Langrenus_LP.fbx-30389749c8d5f3402e3373d45169f52a.scn"
+
+[deps]
+
+source_file="res://addons/lunco-content/maps/Langrenus/source/Langrenus_LP.fbx"
+dest_files=["res://.godot/imported/Langrenus_LP.fbx-30389749c8d5f3402e3373d45169f52a.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"1": {
+"use_external/enabled": true,
+"use_external/path": "res://addons/lunco-content/maps/Langrenus/textures/Langrenus_material_3d.tres"
+}
+},
+"nodes": {
+"PATH:RootNode/LAngrenus_LP": {
+"generate/physics": true,
+"physics/shape_type": 2
+}
+}
+}
+gltf/embedded_image_handling=1
