@@ -6,12 +6,10 @@
 radius = 5.0
 height = 44.0
 
-[node name="SpaceX_Starship" type="Node2D"]
+[node name="SpaceX_Starship" type="RigidBody3D"]
 
-[node name="RigidBody3D" type="RigidBody3D" parent="."]
+[node name="SpaceX_Starship" parent="." instance=ExtResource("1_h2aia")]
 
-[node name="SpaceX_Starship" parent="RigidBody3D" instance=ExtResource("1_h2aia")]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.419859, 22.3539, -0.0989552)
 shape = SubResource("CapsuleShape3D_nesje")
