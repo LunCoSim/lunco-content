@@ -3,7 +3,7 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bitew3f28bise"
+uid="uid://jsfiusd6fwpr"
 path="res://.godot/imported/BlastMesh.glb-278b9e511c3eecdcff2818144f68f364.scn"
 
 [deps]
@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/BlastMesh.glb-278b9e511c3eecdcff2818144f68f36
 
 [params]
 
-nodes/root_type="Spatial"
+nodes/root_type="Node3D"
 nodes/root_name="Scene Root"
 nodes/apply_root_scale=true
 nodes/root_scale=1.0

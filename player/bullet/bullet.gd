@@ -1,12 +1,18 @@
-extends KinematicBody
+extends CharacterBody3D
 
 const BULLET_VELOCITY = 20
 
 var time_alive = 5
 var hit = false
 
-onready var animation_player = $AnimationPlayer
-onready var collision_shape = $CollisionShape
+@onready var animation_player = $AnimationPlayer
+@onready var collision_shape = $CollisionShape3D
+
+func _ready():
+	if not multiplayer.is_server():
+		set_physics_process(false)
+		collision_shape.disabled = true
+
 
 func _physics_process(delta):
 	if hit:
@@ -14,11 +20,23 @@ func _physics_process(delta):
 	time_alive -= delta
 	if time_alive < 0:
 		hit = true
-		animation_player.play("explode")
+		explode.rpc()
 	var col = move_and_collide(-delta * BULLET_VELOCITY * transform.basis.z)
 	if col:
-		if col.collider and col.collider.has_method("hit"):
-			col.collider.hit()
+		var collider = col.get_collider()
+		if collider and collider.has_method("hit"):
+			collider.hit.rpc()
 		collision_shape.disabled = true
-		animation_player.play("explode")
+		explode.rpc()
 		hit = true
+
+
+@rpc("call_local")
+func explode():
+	animation_player.play("explode")
+
+
+func destroy():
+	if not multiplayer.is_server():
+		return
+	queue_free()

@@ -7,6 +7,7 @@ radius = 5.0
 height = 44.0
 
 [node name="SpaceX_Starship" type="RigidBody3D"]
+transform = Transform3D(0.0713407, -0.00593373, 0.997434, -0.0669883, -0.997753, -0.00114435, 0.9952, -0.0667348, -0.0715779, 0, 0, 0)
 
 [node name="SpaceX_Starship" parent="." instance=ExtResource("1_h2aia")]
 
