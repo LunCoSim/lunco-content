@@ -203,4 +203,5 @@ func hit():
 
 @rpc("call_local")
 func add_camera_shake_trauma(amount):
-	player_input.camera_camera.add_trauma(amount)
+	pass
+#	player_input.camera_camera.add_trauma(amount)

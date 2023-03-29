@@ -36,7 +36,7 @@ var aiming_timer := 0.0
 
 func _ready():
 	if get_multiplayer_authority() == multiplayer.get_unique_id():
-		camera_camera.make_current()
+#		camera_camera.make_current()
 		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	else:
 		set_process(false)
@@ -47,9 +47,11 @@ func _process(delta):
 	motion = Vector2(
 			Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 			Input.get_action_strength("move_back") - Input.get_action_strength("move_forward"))
-	var camera_move = Vector2(
-			Input.get_action_strength("view_right") - Input.get_action_strength("view_left"),
-			Input.get_action_strength("view_up") - Input.get_action_strength("view_down"))
+#	var camera_move = Vector2(
+#			Input.get_action_strength("view_right") - Input.get_action_strength("view_left"),
+#			Input.get_action_strength("view_up") - Input.get_action_strength("view_down"))
+	var camera_move = Vector2(0,0)
+
 	var camera_speed_this_frame = delta * CAMERA_CONTROLLER_ROTATION_SPEED
 	if aiming:
 		camera_speed_this_frame *= 0.5
@@ -72,25 +74,26 @@ func _process(delta):
 
 	if aiming != current_aim:
 		aiming = current_aim
-		if aiming:
-			camera_animation.play("shoot")
-		else:
-			camera_animation.play("far")
+#		if aiming:
+#			camera_animation.play("shoot")
+#		else:
+#			camera_animation.play("far")
 
 	if Input.is_action_just_pressed("jump"):
 		jump.rpc()
 
 	shooting = Input.is_action_pressed("shoot")
 	if shooting:
-		var ch_pos = crosshair.position + crosshair.size * 0.5
-		var ray_from = camera_camera.project_ray_origin(ch_pos)
-		var ray_dir = camera_camera.project_ray_normal(ch_pos)
-
-		var col = get_parent().get_world_3d().direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(ray_from, ray_from + ray_dir * 1000, 0b11, [self]))
-		if col.is_empty():
-			shoot_target = ray_from + ray_dir * 1000
-		else:
-			shoot_target = col.position
+		pass
+#		var ch_pos = crosshair.position + crosshair.size * 0.5
+#		var ray_from = camera_camera.project_ray_origin(ch_pos)
+#		var ray_dir = camera_camera.project_ray_normal(ch_pos)
+#
+#		var col = get_parent().get_world_3d().direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(ray_from, ray_from + ray_dir * 1000, 0b11, [self]))
+#		if col.is_empty():
+#			shoot_target = ray_from + ray_dir * 1000
+#		else:
+#			shoot_target = col.position
 
 	# Fade out to black if falling out of the map. -17 is lower than
 	# the lowest valid position checked the map (which is a bit under -16).
@@ -112,27 +115,31 @@ func _input(event):
 
 
 func rotate_camera(move):
-	camera_base.rotate_y(-move.x)
-	# After relative transforms, camera needs to be renormalized.
-	camera_base.orthonormalize()
-	camera_rot.rotation.x = clamp(camera_rot.rotation.x + move.y, CAMERA_X_ROT_MIN, CAMERA_X_ROT_MAX)
+	pass
+#	camera_base.rotate_y(-move.x)
+#	# After relative transforms, camera needs to be renormalized.
+#	camera_base.orthonormalize()
+#	camera_rot.rotation.x = clamp(camera_rot.rotation.x + move.y, CAMERA_X_ROT_MIN, CAMERA_X_ROT_MAX)
 
 
 func get_aim_rotation():
-	var camera_x_rot = clamp(camera_rot.rotation.x, CAMERA_X_ROT_MIN, CAMERA_X_ROT_MAX)
-	# Change aim according to camera rotation.
-	if camera_x_rot >= 0: # Aim up.
-		return -camera_x_rot / CAMERA_X_ROT_MAX
-	else: # Aim down.
-		return camera_x_rot / CAMERA_X_ROT_MIN
+	return 0
+#	var camera_x_rot = clamp(camera_rot.rotation.x, CAMERA_X_ROT_MIN, CAMERA_X_ROT_MAX)
+#	# Change aim according to camera rotation.
+#	if camera_x_rot >= 0: # Aim up.
+#		return -camera_x_rot / CAMERA_X_ROT_MAX
+#	else: # Aim down.
+#		return camera_x_rot / CAMERA_X_ROT_MIN
 
 
 func get_camera_base_quaternion() -> Quaternion:
-	return camera_base.global_transform.basis.get_rotation_quaternion()
+	return Quaternion.IDENTITY
+#	return camera_base.global_transform.basis.get_rotation_quaternion()
 
 
 func get_camera_rotation_basis() -> Basis:
-	return camera_rot.global_transform.basis
+	return Basis.IDENTITY
+#	return camera_rot.global_transform.basis
 
 
 @rpc("call_local")
