@@ -10,7 +10,8 @@ height = 44.0
 transform = Transform3D(0.0713407, -0.00593373, 0.997434, -0.0669883, -0.997753, -0.00114435, 0.9952, -0.0667348, -0.0715779, 0, 0, 0)
 
 [node name="SpaceX_Starship" parent="." instance=ExtResource("1_h2aia")]
+transform = Transform3D(0.0471389, 0.0779689, 0.995842, 0.998301, 0.0305218, -0.0496451, -0.0342655, 0.99649, -0.0763977, -1.86583, -0.552741, -25.4045)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.419859, 22.3539, -0.0989552)
+transform = Transform3D(0.0471389, 0.0779689, 0.995842, 0.998301, 0.0305218, -0.0496451, -0.0342655, 0.99649, -0.0763977, -0.201675, 0.553597, -3.13589)
 shape = SubResource("CapsuleShape3D_nesje")
