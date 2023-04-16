@@ -44,13 +44,20 @@ func _ready():
 	orientation.origin = Vector3()
 	if not multiplayer.is_server():
 		set_process(false)
+		
+	set_multiplayer_authority(str(name).to_int())
 
 
 func _physics_process(delta: float):
-	if multiplayer.is_server():
+	if name == str(multiplayer.get_unique_id()):
 		apply_input(delta)
 	else:
 		animate(current_animation, delta)
+#
+#		if multiplayer.is_server():
+#			apply_input(delta)
+#		else:
+#			animate(current_animation, delta)
 
 
 func animate(anim: int, delta:=0.0):
