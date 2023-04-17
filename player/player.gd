@@ -1,4 +1,4 @@
-class_name Player
+class_name tpsPlayer
 extends CharacterBody3D
 
 enum ANIMATIONS {JUMP_UP, JUMP_DOWN, STRAFE, WALK}
