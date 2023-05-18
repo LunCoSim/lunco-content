@@ -1,3 +1,4 @@
+@tool
 class_name Player
 extends CharacterBody3D
 
@@ -36,9 +37,16 @@ var motion = Vector2()
 		player_id = value
 		$InputSynchronizer.set_multiplayer_authority(value)
 
+@export var user_name := "":
+	set(value):
+		user_name = value
+		update_name()
+		
+		
 @export var current_animation := ANIMATIONS.WALK
 
 func _ready():
+	
 	# Pre-initialize orientation transform.
 	orientation = player_model.global_transform
 	orientation.origin = Vector3()
@@ -46,6 +54,7 @@ func _ready():
 		set_process(false)
 		
 	set_multiplayer_authority(str(name).to_int())
+	update_name()
 
 
 func _physics_process(delta: float):
@@ -59,7 +68,12 @@ func _physics_process(delta: float):
 #		else:
 #			animate(current_animation, delta)
 
-
+func update_name():
+	if $Label3D:
+			$Label3D.text = user_name
+			print('set username: ', user_name, $Label3D.text)
+		
+# ------------
 func animate(anim: int, delta:=0.0):
 	current_animation = anim
 
