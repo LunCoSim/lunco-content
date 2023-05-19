@@ -54,6 +54,9 @@ func _ready():
 		set_process(false)
 		
 	set_multiplayer_authority(str(name).to_int())
+	
+	user_name = StateManager.Username
+	
 	update_name()
 
 
@@ -69,9 +72,9 @@ func _physics_process(delta: float):
 #			animate(current_animation, delta)
 
 func update_name():
-	if $Label3D:
-			$Label3D.text = user_name
-			print('set username: ', user_name, $Label3D.text)
+	if $Username:
+			$Username.text = user_name
+			print('set username: ', user_name, $Username.text)
 		
 # ------------
 func animate(anim: int, delta:=0.0):
