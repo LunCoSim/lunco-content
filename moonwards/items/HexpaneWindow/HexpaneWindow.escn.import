@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6xgnbadqd0df"
-path="res://.godot/imported/HexpaneWindow.escn-ef643d43e3decfe39876d7966effc34a.scn"
+path="res://.godot/imported/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
-dest_files=["res://.godot/imported/HexpaneWindow.escn-ef643d43e3decfe39876d7966effc34a.scn"]
+source_file="res://content/moonwards/items/HexpaneWindow/HexpaneWindow.escn"
+dest_files=["res://.godot/imported/HexpaneWindow.escn-5e7334986a51f8575680cf0e8d31a798.scn"]
 
 [params]
 

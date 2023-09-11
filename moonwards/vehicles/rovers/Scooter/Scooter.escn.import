@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gyo718c0pwup"
-path="res://.godot/imported/Scooter.escn-83a56f3186ff6416e4879f77b7d7ae42.scn"
+path="res://.godot/imported/Scooter.escn-0f3d0072d611d553e50cda878911d6e1.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/vehicles/rovers/Scooter/Scooter.escn"
-dest_files=["res://.godot/imported/Scooter.escn-83a56f3186ff6416e4879f77b7d7ae42.scn"]
+source_file="res://content/moonwards/vehicles/rovers/Scooter/Scooter.escn"
+dest_files=["res://.godot/imported/Scooter.escn-0f3d0072d611d553e50cda878911d6e1.scn"]
 
 [params]
 

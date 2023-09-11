@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c5228twnkf1lr"
-path="res://.godot/imported/step.wav-f1a80aeea3156ca9c173f41e889d4ab5.sample"
+path="res://.godot/imported/step.wav-70936102121bb8bff6951d6cde66559f.sample"
 
 [deps]
 
-source_file="res://addons/lunco-content/player/audio/step.wav"
-dest_files=["res://.godot/imported/step.wav-f1a80aeea3156ca9c173f41e889d4ab5.sample"]
+source_file="res://content/player/audio/step.wav"
+dest_files=["res://.godot/imported/step.wav-70936102121bb8bff6951d6cde66559f.sample"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ce4s8sxcoq6mp"
-path="res://.godot/imported/muzzle_flash_particle_mesh.glb-c92dc1a12ee69534b546a03baad68782.scn"
+path="res://.godot/imported/muzzle_flash_particle_mesh.glb-497a41aaf1e456aa8bac9806ba6d74b5.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/player/model/muzzle_flash_particle_mesh.glb"
-dest_files=["res://.godot/imported/muzzle_flash_particle_mesh.glb-c92dc1a12ee69534b546a03baad68782.scn"]
+source_file="res://content/player/model/muzzle_flash_particle_mesh.glb"
+dest_files=["res://.godot/imported/muzzle_flash_particle_mesh.glb-497a41aaf1e456aa8bac9806ba6d74b5.scn"]
 
 [params]
 

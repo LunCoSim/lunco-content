@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dn5t73yi2rj4h"
-path="res://.godot/imported/SpiderCrane.escn-2e0b26e31137d50f1a745049f6463524.scn"
+path="res://.godot/imported/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
-dest_files=["res://.godot/imported/SpiderCrane.escn-2e0b26e31137d50f1a745049f6463524.scn"]
+source_file="res://content/moonwards/vehicles/rovers/SpiderCrane/SpiderCrane.escn"
+dest_files=["res://.godot/imported/SpiderCrane.escn-09a69bd640ee4431874e7574ddd157d1.scn"]
 
 [params]
 

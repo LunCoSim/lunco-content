@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://crj5xy8seigi5"
-path="res://.godot/imported/PassengerPod.escn-00fba6f4c310ff66dd9fda98445dbba4.scn"
+path="res://.godot/imported/PassengerPod.escn-be92e056efe3686b6e9c16cba062efd1.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/vehicles/rockets/PassengerPod/PassengerPod.escn"
-dest_files=["res://.godot/imported/PassengerPod.escn-00fba6f4c310ff66dd9fda98445dbba4.scn"]
+source_file="res://content/moonwards/vehicles/rockets/PassengerPod/PassengerPod.escn"
+dest_files=["res://.godot/imported/PassengerPod.escn-be92e056efe3686b6e9c16cba062efd1.scn"]
 
 [params]
 

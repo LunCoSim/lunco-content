@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3hjeflyuychb"
-path="res://.godot/imported/ScooterBin.escn-f87be38aeb69d3885c88f3df695854bd.scn"
+path="res://.godot/imported/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/items/ScooterBin/ScooterBin.escn"
-dest_files=["res://.godot/imported/ScooterBin.escn-f87be38aeb69d3885c88f3df695854bd.scn"]
+source_file="res://content/moonwards/items/ScooterBin/ScooterBin.escn"
+dest_files=["res://.godot/imported/ScooterBin.escn-088285fc960e68e48b81e6e920819e41.scn"]
 
 [params]
 

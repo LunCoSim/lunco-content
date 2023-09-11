@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djokdgh8cmnrb"
-path.s3tc="res://.godot/imported/1_Normal_OpenGL.jpg-d5ddce17849f7b4ac97e950eb2a4cad2.s3tc.ctex"
+path.s3tc="res://.godot/imported/1_Normal_OpenGL.jpg-9bb18a3bc3098cd8b0cc21e8a5212c80.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/maps/Langrenus/textures/1_Normal_OpenGL.jpg"
-dest_files=["res://.godot/imported/1_Normal_OpenGL.jpg-d5ddce17849f7b4ac97e950eb2a4cad2.s3tc.ctex"]
+source_file="res://content/maps/Langrenus/textures/1_Normal_OpenGL.jpg"
+dest_files=["res://.godot/imported/1_Normal_OpenGL.jpg-9bb18a3bc3098cd8b0cc21e8a5212c80.s3tc.ctex"]
 
 [params]
 

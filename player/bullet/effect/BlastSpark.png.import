@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dks8sgj4ne4ip"
-path.s3tc="res://.godot/imported/BlastSpark.png-a187110fc2e117aa223222ed43ca888f.s3tc.ctex"
+path.s3tc="res://.godot/imported/BlastSpark.png-ca2a3317c8d39190722fa9f92e6086d6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/player/bullet/effect/BlastSpark.png"
-dest_files=["res://.godot/imported/BlastSpark.png-a187110fc2e117aa223222ed43ca888f.s3tc.ctex"]
+source_file="res://content/player/bullet/effect/BlastSpark.png"
+dest_files=["res://.godot/imported/BlastSpark.png-ca2a3317c8d39190722fa9f92e6086d6.s3tc.ctex"]
 
 [params]
 

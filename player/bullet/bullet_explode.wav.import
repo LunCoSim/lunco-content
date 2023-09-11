@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c0bpunl6shvlr"
-path="res://.godot/imported/bullet_explode.wav-39687618ae970640ad54a77a5964518a.sample"
+path="res://.godot/imported/bullet_explode.wav-26322e0a305dc74bf26e863967fcfbab.sample"
 
 [deps]
 
-source_file="res://addons/lunco-content/player/bullet/bullet_explode.wav"
-dest_files=["res://.godot/imported/bullet_explode.wav-39687618ae970640ad54a77a5964518a.sample"]
+source_file="res://content/player/bullet/bullet_explode.wav"
+dest_files=["res://.godot/imported/bullet_explode.wav-26322e0a305dc74bf26e863967fcfbab.sample"]
 
 [params]
 

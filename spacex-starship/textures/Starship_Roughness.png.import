@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxyijaousn2d1"
-path.s3tc="res://.godot/imported/Starship_Roughness.png-309f8b0d6d91274a03c939b74539450f.s3tc.ctex"
+path.s3tc="res://.godot/imported/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/spacex-starship/textures/Starship_Roughness.png"
-dest_files=["res://.godot/imported/Starship_Roughness.png-309f8b0d6d91274a03c939b74539450f.s3tc.ctex"]
+source_file="res://content/spacex-starship/textures/Starship_Roughness.png"
+dest_files=["res://.godot/imported/Starship_Roughness.png-e02466f8ff37a19fd24fb36af61de5dc.s3tc.ctex"]
 
 [params]
 

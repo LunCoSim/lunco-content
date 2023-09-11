@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj46di0ip66q5"
-path.s3tc="res://.godot/imported/FlarePolar.png-81935cc8c1f2f82644d066b32731f891.s3tc.ctex"
+path.s3tc="res://.godot/imported/FlarePolar.png-dc6c306b9ba1b94ef641ee1820f9ccec.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/player/bullet/effect/FlarePolar.png"
-dest_files=["res://.godot/imported/FlarePolar.png-81935cc8c1f2f82644d066b32731f891.s3tc.ctex"]
+source_file="res://content/player/bullet/effect/FlarePolar.png"
+dest_files=["res://.godot/imported/FlarePolar.png-dc6c306b9ba1b94ef641ee1820f9ccec.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d17qvns23fvuv"
-path.s3tc="res://.godot/imported/blue_myst.png-30bf6cd9ac5951eaf2761c889c661d1a.s3tc.ctex"
+path.s3tc="res://.godot/imported/blue_myst.png-380615291d5415e478b5243750fad04a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/player/bullet/blue_myst.png"
-dest_files=["res://.godot/imported/blue_myst.png-30bf6cd9ac5951eaf2761c889c661d1a.s3tc.ctex"]
+source_file="res://content/player/bullet/blue_myst.png"
+dest_files=["res://.godot/imported/blue_myst.png-380615291d5415e478b5243750fad04a.s3tc.ctex"]
 
 [params]
 

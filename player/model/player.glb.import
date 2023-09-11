@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://div25sd40yx1d"
-path="res://.godot/imported/player.glb-03ea5880d1b5bc30661d42f7fd6f8d49.scn"
+path="res://.godot/imported/player.glb-8df50b738f17cf29c2ab5eef54ab0bba.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/player/model/player.glb"
-dest_files=["res://.godot/imported/player.glb-03ea5880d1b5bc30661d42f7fd6f8d49.scn"]
+source_file="res://content/player/model/player.glb"
+dest_files=["res://.godot/imported/player.glb-8df50b738f17cf29c2ab5eef54ab0bba.scn"]
 
 [params]
 

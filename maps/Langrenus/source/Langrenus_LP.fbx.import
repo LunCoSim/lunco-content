@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be8yh24drxnon"
-path="res://.godot/imported/Langrenus_LP.fbx-30389749c8d5f3402e3373d45169f52a.scn"
+path="res://.godot/imported/Langrenus_LP.fbx-2a28bdc566906165e527bef713008621.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/maps/Langrenus/source/Langrenus_LP.fbx"
-dest_files=["res://.godot/imported/Langrenus_LP.fbx-30389749c8d5f3402e3373d45169f52a.scn"]
+source_file="res://content/maps/Langrenus/source/Langrenus_LP.fbx"
+dest_files=["res://.godot/imported/Langrenus_LP.fbx-2a28bdc566906165e527bef713008621.scn"]
 
 [params]
 

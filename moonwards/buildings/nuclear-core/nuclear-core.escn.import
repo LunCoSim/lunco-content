@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cpjdvh1eaof2y"
-path="res://.godot/imported/nuclear-core.escn-172f6282c5fe01ef57afc1e6fe967f85.scn"
+path="res://.godot/imported/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/buildings/nuclear-core/nuclear-core.escn"
-dest_files=["res://.godot/imported/nuclear-core.escn-172f6282c5fe01ef57afc1e6fe967f85.scn"]
+source_file="res://content/moonwards/buildings/nuclear-core/nuclear-core.escn"
+dest_files=["res://.godot/imported/nuclear-core.escn-cf0bf15be7f2422e22c596356a53f15c.scn"]
 
 [params]
 

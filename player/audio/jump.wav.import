@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://evwr35k4yn6g"
-path="res://.godot/imported/jump.wav-6a19c93d8c602935667c7506f5050671.sample"
+path="res://.godot/imported/jump.wav-0ea0403f264fae9f8f74b022c198c583.sample"
 
 [deps]
 
-source_file="res://addons/lunco-content/player/audio/jump.wav"
-dest_files=["res://.godot/imported/jump.wav-6a19c93d8c602935667c7506f5050671.sample"]
+source_file="res://content/player/audio/jump.wav"
+dest_files=["res://.godot/imported/jump.wav-0ea0403f264fae9f8f74b022c198c583.sample"]
 
 [params]
 

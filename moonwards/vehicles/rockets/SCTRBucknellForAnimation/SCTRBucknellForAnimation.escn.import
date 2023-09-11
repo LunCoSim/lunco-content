@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cc84wh5ko1fct"
-path="res://.godot/imported/SCTRBucknellForAnimation.escn-145abd24f4b5238e75e2ab000ca05158.scn"
+path="res://.godot/imported/SCTRBucknellForAnimation.escn-7568c1fb84705a783b61477b002c6190.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/moonwards/vehicles/rockets/SCTRBucknellForAnimation/SCTRBucknellForAnimation.escn"
-dest_files=["res://.godot/imported/SCTRBucknellForAnimation.escn-145abd24f4b5238e75e2ab000ca05158.scn"]
+source_file="res://content/moonwards/vehicles/rockets/SCTRBucknellForAnimation/SCTRBucknellForAnimation.escn"
+dest_files=["res://.godot/imported/SCTRBucknellForAnimation.escn-7568c1fb84705a783b61477b002c6190.scn"]
 
 [params]
 
