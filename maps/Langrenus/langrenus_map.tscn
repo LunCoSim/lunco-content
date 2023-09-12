@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://be8yh24drxnon" path="res://content/maps/Langrenus/source/Langrenus_LP.fbx" id="1_brbct"]
 
-[node name="Langrenus_LP" instance=ExtResource("1_brbct")]
+[node name="Langrenus_LP2" instance=ExtResource("1_brbct")]
 
 [node name="RootNode" parent="." index="0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 57.3936, 0)
+transform = Transform3D(0.999184, 0, 0, 0, 0.999184, 0, 0, 0, 0.999184, 0, 57.3936, 0)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://bihcxq7r6iqu"]
+[gd_scene load_steps=3 format=3 uid="uid://id12h35uqejc"]
 
 [ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/spacex-starship/source/SpaceX_Starship.fbx" id="1_h2aia"]
 
@@ -6,7 +6,7 @@
 radius = 5.0
 height = 44.0
 
-[node name="SpaceX_Starship" type="RigidBody3D"]
+[node name="SpaceX_Starship2" type="RigidBody3D"]
 transform = Transform3D(0.0713407, -0.00593373, 0.997434, -0.0669883, -0.997753, -0.00114435, 0.9952, -0.0667348, -0.0715779, 0, 0, 0)
 
 [node name="SpaceX_Starship" parent="." instance=ExtResource("1_h2aia")]
