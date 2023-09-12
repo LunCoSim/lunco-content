@@ -1,12 +1,12 @@
 [gd_scene load_steps=57 format=3]
 
-[ext_resource type="Script" path="res://addons/lunco-content/player/bullet/bullet.gd" id="1"]
-[ext_resource type="ArrayMesh" uid="uid://dqkkefcnt0erw" path="res://addons/lunco-content/player/effects_shared/BlastMesh_Sphere.mesh" id="2"]
-[ext_resource type="AudioStream" uid="uid://c0bpunl6shvlr" path="res://addons/lunco-content/player/bullet/bullet_explode.wav" id="3"]
-[ext_resource type="Material" uid="uid://bxjcw6j767jtn" path="res://addons/lunco-content/player/bullet/effect/BlastMaterial.tres" id="4"]
-[ext_resource type="Material" path="res://addons/lunco-content/player/bullet/effect/light_rays_material.tres" id="5"]
-[ext_resource type="Texture2D" uid="uid://d17qvns23fvuv" path="res://addons/lunco-content/player/bullet/blue_myst.png" id="8"]
-[ext_resource type="Material" path="res://addons/lunco-content/player/bullet/bullet_material.tres" id="9"]
+[ext_resource type="Script" path="res://content/player/bullet/bullet.gd" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://dqkkefcnt0erw" path="res://content/player/effects_shared/BlastMesh_Sphere.mesh" id="2"]
+[ext_resource type="AudioStream" uid="uid://c0bpunl6shvlr" path="res://content/player/bullet/bullet_explode.wav" id="3"]
+[ext_resource type="Material" uid="uid://bxjcw6j767jtn" path="res://content/player/bullet/effect/BlastMaterial.tres" id="4"]
+[ext_resource type="Material" path="res://content/player/bullet/effect/light_rays_material.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://d17qvns23fvuv" path="res://content/player/bullet/blue_myst.png" id="8"]
+[ext_resource type="Material" path="res://content/player/bullet/bullet_material.tres" id="9"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_peqai"]
 properties/0/path = NodePath(".:global_transform")

@@ -1,6 +1,6 @@
 [gd_resource type="Animation" load_steps=2 format=3]
 
-[ext_resource type="AudioStream" path="res://addons/lunco-content/player/audio/step_random_pitch.tres" id="1"]
+[ext_resource type="AudioStream" path="res://content/player/audio/step_random_pitch.tres" id="1"]
 
 [resource]
 resource_name = "running_nogun-cycle"

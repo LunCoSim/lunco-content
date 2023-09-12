@@ -3,12 +3,12 @@
 importer="com.timothyqiu.godot-csv-importer"
 type="Resource"
 uid="uid://5t7isc0dg8ig"
-path="res://.godot/imported/missions.csv-3904cb33930b2b25011eaa4cfa2528a8.res"
+path="res://.godot/imported/missions.csv-047e72fa565137040abd990b572ab065.res"
 
 [deps]
 
-source_file="res://addons/lunco-content/datasets/missions.csv"
-dest_files=["res://.godot/imported/missions.csv-3904cb33930b2b25011eaa4cfa2528a8.res"]
+source_file="res://content/datasets/missions.csv"
+dest_files=["res://.godot/imported/missions.csv-047e72fa565137040abd990b572ab065.res"]
 
 [params]
 

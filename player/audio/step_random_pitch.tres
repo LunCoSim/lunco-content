@@ -1,6 +1,6 @@
 [gd_resource type="AudioStreamRandomizer" load_steps=2 format=3]
 
-[ext_resource type="AudioStream" uid="uid://c5228twnkf1lr" path="res://addons/lunco-content/player/audio/step.wav" id="1"]
+[ext_resource type="AudioStream" uid="uid://c5228twnkf1lr" path="res://content/player/audio/step.wav" id="1"]
 
 [resource]
 streams_count = 1

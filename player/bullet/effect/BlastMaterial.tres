@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cpxu75utpfnj6"]
 
-[ext_resource type="Texture2D" uid="uid://bpm6frbylo5an" path="res://addons/lunco-content/player/effects_shared/BlastTexture.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bpm6frbylo5an" path="res://content/player/effects_shared/BlastTexture.png" id="1"]
 
 [sub_resource type="Shader" id="1"]
 code = "shader_type spatial;

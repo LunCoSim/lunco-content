@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8bamggcp7gpx"
-path.s3tc="res://.godot/imported/player_robot_emissive.png-3e8ab3bcc4ddf1cd04a997a1c2d5de54.s3tc.ctex"
+path.s3tc="res://.godot/imported/player_robot_emissive.png-c83a0575b34f5446f18e599ae291e76f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/player/textures/player_robot_emissive.png"
-dest_files=["res://.godot/imported/player_robot_emissive.png-3e8ab3bcc4ddf1cd04a997a1c2d5de54.s3tc.ctex"]
+source_file="res://content/player/textures/player_robot_emissive.png"
+dest_files=["res://.godot/imported/player_robot_emissive.png-c83a0575b34f5446f18e599ae291e76f.s3tc.ctex"]
 
 [params]
 

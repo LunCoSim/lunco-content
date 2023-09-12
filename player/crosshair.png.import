@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vpkjqsku35mr"
-path="res://.godot/imported/crosshair.png-2a25de0a130b5466e6b0a063c8aba9cc.ctex"
+path="res://.godot/imported/crosshair.png-d895f6b524a276b84eb41646138c01a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/lunco-content/player/crosshair.png"
-dest_files=["res://.godot/imported/crosshair.png-2a25de0a130b5466e6b0a063c8aba9cc.ctex"]
+source_file="res://content/player/crosshair.png"
+dest_files=["res://.godot/imported/crosshair.png-d895f6b524a276b84eb41646138c01a5.ctex"]
 
 [params]
 

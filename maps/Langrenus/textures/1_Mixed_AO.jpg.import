@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfbbnex8t3nar"
-path="res://.godot/imported/1_Mixed_AO.jpg-4e075c0cb7d3b10eec8c858bb0c1bda6.ctex"
+path="res://.godot/imported/1_Mixed_AO.jpg-017919ef178b4e3298d8f8c02ece68dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/lunco-content/maps/Langrenus/textures/1_Mixed_AO.jpg"
-dest_files=["res://.godot/imported/1_Mixed_AO.jpg-4e075c0cb7d3b10eec8c858bb0c1bda6.ctex"]
+source_file="res://content/maps/Langrenus/textures/1_Mixed_AO.jpg"
+dest_files=["res://.godot/imported/1_Mixed_AO.jpg-017919ef178b4e3298d8f8c02ece68dd.ctex"]
 
 [params]
 

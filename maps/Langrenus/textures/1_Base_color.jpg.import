@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://p44bjnt7n7g3"
-path.s3tc="res://.godot/imported/1_Base_color.jpg-c694a194a49b60033d7409e2744cfa16.s3tc.ctex"
+path.s3tc="res://.godot/imported/1_Base_color.jpg-8edaa44439314e5ba00b11283f1ab80c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/maps/Langrenus/textures/1_Base_color.jpg"
-dest_files=["res://.godot/imported/1_Base_color.jpg-c694a194a49b60033d7409e2744cfa16.s3tc.ctex"]
+source_file="res://content/maps/Langrenus/textures/1_Base_color.jpg"
+dest_files=["res://.godot/imported/1_Base_color.jpg-8edaa44439314e5ba00b11283f1ab80c.s3tc.ctex"]
 
 [params]
 

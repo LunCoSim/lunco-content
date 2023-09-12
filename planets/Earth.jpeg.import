@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy77ledod3eoa"
-path.s3tc="res://.godot/imported/Earth.jpeg-0ab495d8d0ffc5d6b6c52b7ec3f45ac1.s3tc.ctex"
+path.s3tc="res://.godot/imported/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/lunco-content/planets/Earth.jpeg"
-dest_files=["res://.godot/imported/Earth.jpeg-0ab495d8d0ffc5d6b6c52b7ec3f45ac1.s3tc.ctex"]
+source_file="res://content/planets/Earth.jpeg"
+dest_files=["res://.godot/imported/Earth.jpeg-9b5a5aadf234e3c2036674c36fa83520.s3tc.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://d8gbyf2xbd4m"]
 
-[ext_resource type="PackedScene" uid="uid://be8yh24drxnon" path="res://addons/lunco-content/maps/Langrenus/source/Langrenus_LP.fbx" id="1_brbct"]
+[ext_resource type="PackedScene" uid="uid://be8yh24drxnon" path="res://content/maps/Langrenus/source/Langrenus_LP.fbx" id="1_brbct"]
 
 [node name="Langrenus_LP" instance=ExtResource("1_brbct")]
 

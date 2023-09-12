@@ -1,5 +1,5 @@
 [gd_scene load_steps=2 format=3 uid="uid://bmh4fd2kq1061"]
 
-[ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://addons/lunco-content/spacex-starship/source/SpaceX_Starship.fbx" id="1_w46dl"]
+[ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/spacex-starship/source/SpaceX_Starship.fbx" id="1_w46dl"]
 
 [node name="SpaceX_Starship" instance=ExtResource("1_w46dl")]

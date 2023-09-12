@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c81ry3343bcav"
-path="res://.godot/imported/SpaceX_Starship.fbx-8b2c9a7e348f08cbb716c44fd5513c04.scn"
+path="res://.godot/imported/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn"
 
 [deps]
 
-source_file="res://addons/lunco-content/spacex-starship/source/SpaceX_Starship.fbx"
-dest_files=["res://.godot/imported/SpaceX_Starship.fbx-8b2c9a7e348f08cbb716c44fd5513c04.scn"]
+source_file="res://content/spacex-starship/source/SpaceX_Starship.fbx"
+dest_files=["res://.godot/imported/SpaceX_Starship.fbx-d6c934f3e02f8821fb8642eb50bbcf9e.scn"]
 
 [params]
 
@@ -32,7 +32,7 @@ _subresources={
 "materials": {
 "Starship": {
 "use_external/enabled": true,
-"use_external/path": "res://addons/lunco-content/spacex-starship/textures/Starship.material"
+"use_external/path": "res://content/spacex-starship/textures/Starship.material"
 }
 }
 }
