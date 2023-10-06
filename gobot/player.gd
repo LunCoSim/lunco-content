@@ -1,7 +1,7 @@
 @icon("res://entities/character_entity.svg")
 @tool
 class_name Player
-extends CharacterBody3D
+extends LCCharacterBody
 
 enum ANIMATIONS {JUMP_UP, JUMP_DOWN, STRAFE, WALK}
 
