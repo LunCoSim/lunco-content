@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://glpjepixvmdl"
-path="res://.godot/imported/shoot.wav-c6f2ac457e6e4f197875c2d482c506f9.sample"
+path="res://.godot/imported/shoot.wav-516c1944be8b18846c4b79e5c3b8451e.sample"
 
 [deps]
 
-source_file="res://content/player/audio/shoot.wav"
-dest_files=["res://.godot/imported/shoot.wav-c6f2ac457e6e4f197875c2d482c506f9.sample"]
+source_file="res://content/gobot/audio/shoot.wav"
+dest_files=["res://.godot/imported/shoot.wav-516c1944be8b18846c4b79e5c3b8451e.sample"]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfiaidypprqxn"
-path.s3tc="res://.godot/imported/player_robot_normal.png-f8fdb2c20178d6f64588a692f79ddc8f.s3tc.ctex"
+uid="uid://d17qvns23fvuv"
+path.s3tc="res://.godot/imported/blue_myst.png-7f997e3db463179f68e7a0602f7ac382.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/textures/player_robot_normal.png"
-dest_files=["res://.godot/imported/player_robot_normal.png-f8fdb2c20178d6f64588a692f79ddc8f.s3tc.ctex"]
+source_file="res://content/gobot/bullet/blue_myst.png"
+dest_files=["res://.godot/imported/blue_myst.png-7f997e3db463179f68e7a0602f7ac382.s3tc.ctex"]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1

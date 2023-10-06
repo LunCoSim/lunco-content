@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://e25tiap7vd16"
-path.s3tc="res://.godot/imported/player_robot_orm.png-09e654b81e130feae928db8cd9345b16.s3tc.ctex"
+uid="uid://b8bamggcp7gpx"
+path.s3tc="res://.godot/imported/player_robot_emissive.png-cba43aa3aaee2a030b35337c7ec98102.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/textures/player_robot_orm.png"
-dest_files=["res://.godot/imported/player_robot_orm.png-09e654b81e130feae928db8cd9345b16.s3tc.ctex"]
+source_file="res://content/gobot/textures/player_robot_emissive.png"
+dest_files=["res://.godot/imported/player_robot_emissive.png-cba43aa3aaee2a030b35337c7ec98102.s3tc.ctex"]
 
 [params]
 

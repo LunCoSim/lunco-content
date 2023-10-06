@@ -149,7 +149,7 @@ func apply_input(delta: float):
 			var shoot_origin = shoot_from.global_transform.origin
 			var shoot_dir = (player_input.shoot_target - shoot_origin).normalized()
 
-			var bullet = preload("res://content/player/bullet/bullet.tscn").instantiate()
+			var bullet = preload("res://content/gobot/bullet/bullet.tscn").instantiate()
 			get_parent().add_child(bullet, true)
 			bullet.global_transform.origin = shoot_origin
 			# If we don't rotate the bullets there is no useful way to control the particles ..

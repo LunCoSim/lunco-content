@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d17qvns23fvuv"
-path.s3tc="res://.godot/imported/blue_myst.png-380615291d5415e478b5243750fad04a.s3tc.ctex"
+uid="uid://dks8sgj4ne4ip"
+path.s3tc="res://.godot/imported/BlastSpark.png-ae1cd183ff2668a867c3b41f2c31123e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/bullet/blue_myst.png"
-dest_files=["res://.godot/imported/blue_myst.png-380615291d5415e478b5243750fad04a.s3tc.ctex"]
+source_file="res://content/gobot/bullet/effect/BlastSpark.png"
+dest_files=["res://.godot/imported/BlastSpark.png-ae1cd183ff2668a867c3b41f2c31123e.s3tc.ctex"]
 
 [params]
 
@@ -22,7 +22,7 @@ compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -32,4 +32,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

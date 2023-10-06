@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c0bpunl6shvlr"
-path="res://.godot/imported/bullet_explode.wav-26322e0a305dc74bf26e863967fcfbab.sample"
+path="res://.godot/imported/bullet_explode.wav-f4f5e1a5900e004c153f4ef06480ec25.sample"
 
 [deps]
 
-source_file="res://content/player/bullet/bullet_explode.wav"
-dest_files=["res://.godot/imported/bullet_explode.wav-26322e0a305dc74bf26e863967fcfbab.sample"]
+source_file="res://content/gobot/bullet/bullet_explode.wav"
+dest_files=["res://.godot/imported/bullet_explode.wav-f4f5e1a5900e004c153f4ef06480ec25.sample"]
 
 [params]
 

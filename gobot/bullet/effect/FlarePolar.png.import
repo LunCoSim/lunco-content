@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://o1nd7djiihf1"
-path.s3tc="res://.godot/imported/player_robot_albedo.png-7015f25010150e7173c18f45c088324e.s3tc.ctex"
+uid="uid://dj46di0ip66q5"
+path.s3tc="res://.godot/imported/FlarePolar.png-bb2d38fc381a319a16253afff3d71123.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/textures/player_robot_albedo.png"
-dest_files=["res://.godot/imported/player_robot_albedo.png-7015f25010150e7173c18f45c088324e.s3tc.ctex"]
+source_file="res://content/gobot/bullet/effect/FlarePolar.png"
+dest_files=["res://.godot/imported/FlarePolar.png-bb2d38fc381a319a16253afff3d71123.s3tc.ctex"]
 
 [params]
 

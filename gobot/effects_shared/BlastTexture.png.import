@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8bamggcp7gpx"
-path.s3tc="res://.godot/imported/player_robot_emissive.png-c83a0575b34f5446f18e599ae291e76f.s3tc.ctex"
+uid="uid://bpm6frbylo5an"
+path.s3tc="res://.godot/imported/BlastTexture.png-22f1573d7c70d342b525d3b3ec843178.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/textures/player_robot_emissive.png"
-dest_files=["res://.godot/imported/player_robot_emissive.png-c83a0575b34f5446f18e599ae291e76f.s3tc.ctex"]
+source_file="res://content/gobot/effects_shared/BlastTexture.png"
+dest_files=["res://.godot/imported/BlastTexture.png-22f1573d7c70d342b525d3b3ec843178.s3tc.ctex"]
 
 [params]
 

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj46di0ip66q5"
-path.s3tc="res://.godot/imported/FlarePolar.png-dc6c306b9ba1b94ef641ee1820f9ccec.s3tc.ctex"
+uid="uid://dfiaidypprqxn"
+path.s3tc="res://.godot/imported/player_robot_normal.png-4f8859b3d2b21f51a58f698237696a9e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/player/bullet/effect/FlarePolar.png"
-dest_files=["res://.godot/imported/FlarePolar.png-dc6c306b9ba1b94ef641ee1820f9ccec.s3tc.ctex"]
+source_file="res://content/gobot/textures/player_robot_normal.png"
+dest_files=["res://.godot/imported/player_robot_normal.png-4f8859b3d2b21f51a58f698237696a9e.s3tc.ctex"]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1

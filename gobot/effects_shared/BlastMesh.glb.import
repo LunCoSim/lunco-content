@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://jsfiusd6fwpr"
-path="res://.godot/imported/BlastMesh.glb-5fe0dc45db1b93ffe10c5dd0fcfe73d1.scn"
+path="res://.godot/imported/BlastMesh.glb-34c5cacb50992e3d96bd3a3572ab2592.scn"
 
 [deps]
 
-source_file="res://content/player/effects_shared/BlastMesh.glb"
-dest_files=["res://.godot/imported/BlastMesh.glb-5fe0dc45db1b93ffe10c5dd0fcfe73d1.scn"]
+source_file="res://content/gobot/effects_shared/BlastMesh.glb"
+dest_files=["res://.godot/imported/BlastMesh.glb-34c5cacb50992e3d96bd3a3572ab2592.scn"]
 
 [params]
 

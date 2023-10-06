@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8lk3fgjhubwy"
-path="res://.godot/imported/FlareStraight.png-9d640f27d79bffca147ca7d7739a9eb1.ctex"
+uid="uid://vpkjqsku35mr"
+path="res://.godot/imported/crosshair.png-17afaaa5fb2340de549c2e075da2e924.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://content/player/bullet/effect/FlareStraight.png"
-dest_files=["res://.godot/imported/FlareStraight.png-9d640f27d79bffca147ca7d7739a9eb1.ctex"]
+source_file="res://content/gobot/crosshair.png"
+dest_files=["res://.godot/imported/crosshair.png-17afaaa5fb2340de549c2e075da2e924.ctex"]
 
 [params]
 

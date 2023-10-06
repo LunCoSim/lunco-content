@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ce4s8sxcoq6mp"
-path="res://.godot/imported/muzzle_flash_particle_mesh.glb-497a41aaf1e456aa8bac9806ba6d74b5.scn"
+uid="uid://div25sd40yx1d"
+path="res://.godot/imported/player.glb-9e7930dcb5deb0cea5ec0095c4410db4.scn"
 
 [deps]
 
-source_file="res://content/player/model/muzzle_flash_particle_mesh.glb"
-dest_files=["res://.godot/imported/muzzle_flash_particle_mesh.glb-497a41aaf1e456aa8bac9806ba6d74b5.scn"]
+source_file="res://content/gobot/model/player.glb"
+dest_files=["res://.godot/imported/player.glb-9e7930dcb5deb0cea5ec0095c4410db4.scn"]
 
 [params]
 
@@ -28,5 +28,16 @@ animation/fps=15
 animation/trimming=false
 animation/remove_immutable_tracks=true
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"playerobot": {
+"use_external/enabled": true,
+"use_external/path": "res://content/gobot/model/playerobot.tres"
+},
+"robotemitter": {
+"use_external/enabled": true,
+"use_external/path": "res://content/gobot/model/robotemitter.tres"
+}
+}
+}
 gltf/embedded_image_handling=1
