@@ -1,15 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://id12h35uqejc"]
+[gd_scene load_steps=4 format=3 uid="uid://id12h35uqejc"]
 
-[ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/spacex-starship/source/SpaceX_Starship.fbx" id="1_h2aia"]
+[ext_resource type="Script" path="res://core/entities/rigid-body.gd" id="1_dysse"]
+[ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/spacex-starship/source/SpaceX_Starship.fbx" id="1_g452c"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_nesje"]
 radius = 5.0
 height = 44.0
 
-[node name="SpaceX_Starship2" type="RigidBody3D"]
+[node name="Starship" type="RigidBody3D"]
 transform = Transform3D(0.0713407, -0.00593373, 0.997434, -0.0669883, -0.997753, -0.00114435, 0.9952, -0.0667348, -0.0715779, 0, 0, 0)
+script = ExtResource("1_dysse")
 
-[node name="SpaceX_Starship" parent="." instance=ExtResource("1_h2aia")]
+[node name="SpaceX_Starship" parent="." instance=ExtResource("1_g452c")]
 transform = Transform3D(0.0471389, 0.0779689, 0.995842, 0.998301, 0.0305218, -0.0496451, -0.0342655, 0.99649, -0.0763977, -1.86583, -0.552741, -25.4045)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

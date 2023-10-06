@@ -1,3 +1,4 @@
+@icon("res://entities/character_entity.svg")
 @tool
 class_name Player
 extends CharacterBody3D
@@ -53,23 +54,18 @@ func _ready():
 	if not multiplayer.is_server():
 		set_process(false)
 		
-	set_multiplayer_authority(str(name).to_int())
+	#set_multiplayer_authority(str(name).to_int())
 	
 	user_name = StateManager.Username
 	
 	update_name()
 
 
-func _physics_process(delta: float):
-	if name == str(multiplayer.get_unique_id()):
+func _physics_process(delta: float):	
+	if is_multiplayer_authority():
 		apply_input(delta)
 	else:
 		animate(current_animation, delta)
-#
-#		if multiplayer.is_server():
-#			apply_input(delta)
-#		else:
-#			animate(current_animation, delta)
 
 func update_name():
 	if $Username:
