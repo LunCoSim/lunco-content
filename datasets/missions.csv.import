@@ -1,18 +1,17 @@
 [remap]
 
-importer="com.timothyqiu.godot-csv-importer"
-type="Resource"
+importer="csv_translation"
+type="Translation"
 uid="uid://5t7isc0dg8ig"
-path="res://.godot/imported/missions.csv-047e72fa565137040abd990b572ab065.res"
 
 [deps]
 
+files=["res://content/datasets/missions.Mission.translation", "res://content/datasets/missions.Status.translation", "res://content/datasets/missions.Launch Date.translation", "res://content/datasets/missions.Mission type.translation", "res://content/datasets/missions.Landing location.translation", "res://content/datasets/missions.latitude.translation", "res://content/datasets/missions.longitude.translation", "res://content/datasets/missions.Landing date.translation"]
+
 source_file="res://content/datasets/missions.csv"
-dest_files=["res://.godot/imported/missions.csv-047e72fa565137040abd990b572ab065.res"]
+dest_files=["res://content/datasets/missions.Mission.translation", "res://content/datasets/missions.Status.translation", "res://content/datasets/missions.Launch Date.translation", "res://content/datasets/missions.Mission type.translation", "res://content/datasets/missions.Landing location.translation", "res://content/datasets/missions.latitude.translation", "res://content/datasets/missions.longitude.translation", "res://content/datasets/missions.Landing date.translation"]
 
 [params]
 
+compress=true
 delimiter=0
-headers=true
-detect_numbers=true
-force_float=true
