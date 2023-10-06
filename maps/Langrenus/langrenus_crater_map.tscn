@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7q7gaaaa8g5g"]
+
+[ext_resource type="PackedScene" uid="uid://be8yh24drxnon" path="res://content/maps/Langrenus/source/Langrenus_LP.fbx" id="1_nn5lg"]
+
+[node name="LangrenusCraterMap" instance=ExtResource("1_nn5lg")]
+LocationCoordinates = Vector2(-8.9, 60.9)
