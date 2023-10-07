@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkw6i8uv55nit"
-path.s3tc="res://.godot/imported/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.s3tc.ctex"
+uid="uid://br5t0o3letq5f"
+path.s3tc="res://.godot/imported/Starship_Emissive.png-ff09e8ef8bb59516257bc9999678fc94.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Normal_DirectX.png"
-dest_files=["res://.godot/imported/Starship_Normal_DirectX.png-c40a2cd81f8d045024ee7c30ba8eead8.s3tc.ctex"]
+source_file="res://content/starship/textures/Starship_Emissive.png"
+dest_files=["res://.godot/imported/Starship_Emissive.png-ff09e8ef8bb59516257bc9999678fc94.s3tc.ctex"]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=1
+compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1

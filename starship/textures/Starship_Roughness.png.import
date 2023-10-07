@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmibio64sdpdl"
-path.s3tc="res://.godot/imported/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.s3tc.ctex"
+uid="uid://cxyijaousn2d1"
+path.s3tc="res://.godot/imported/Starship_Roughness.png-c50fa0c43b23e8234cb163c9a358ae2f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Metallic.png"
-dest_files=["res://.godot/imported/Starship_Metallic.png-d6ffbc1f93d99e6e7a64bc9734099432.s3tc.ctex"]
+source_file="res://content/starship/textures/Starship_Roughness.png"
+dest_files=["res://.godot/imported/Starship_Roughness.png-c50fa0c43b23e8234cb163c9a358ae2f.s3tc.ctex"]
 
 [params]
 

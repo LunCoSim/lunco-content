@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=3 uid="uid://bl8254ixsq42f"]
+
+[ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/starship/source/SpaceX_Starship.fbx" id="1_opwl0"]
+[ext_resource type="Script" path="res://content/starship/starship.gd" id="1_vljpq"]
+[ext_resource type="Script" path="res://controllers/spacecraft/spacecraft-controller.gd" id="2_fwmh4"]
+[ext_resource type="Script" path="res://components/rocket-engine/rocket-engine.gd" id="3_s0r5e"]
+[ext_resource type="PackedScene" uid="uid://co1mar6mmv7f1" path="res://core/models/rocket-plume/rocket-plume-2d.tscn" id="4_lhx4g"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1adpw"]
+radius = 5.44966
+height = 52.6454
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_k7qe3"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 2
+properties/1/path = NodePath(".:rotation")
+properties/1/spawn = true
+properties/1/replication_mode = 2
+properties/2/path = NodePath(".:mass")
+properties/2/spawn = true
+properties/2/replication_mode = 1
+
+[node name="Starship" instance=ExtResource("1_opwl0")]
+script = ExtResource("1_vljpq")
+
+[node name="RootNode" parent="." index="0"]
+transform = Transform3D(1.91069e-15, -4.37114e-08, -1, -1, -4.37114e-08, 0, -4.37114e-08, 1, -4.37114e-08, 0, 0, -25.1825)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 1.2668)
+shape = SubResource("CapsuleShape3D_1adpw")
+
+[node name="LCSpacecraftController" type="Node3D" parent="." index="3"]
+script = ExtResource("2_fwmh4")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="." index="4"]
+replication_config = SubResource("SceneReplicationConfig_k7qe3")
+
+[node name="RocketEngine" type="Node3D" parent="." index="5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25.2304)
+script = ExtResource("3_s0r5e")
+
+[node name="RocketPlume" parent="RocketEngine" index="0" instance=ExtResource("4_lhx4g")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 6, 2.58179, -1.52852, 0)
+
+[node name="RocketPlume2" parent="RocketEngine" index="1" instance=ExtResource("4_lhx4g")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 6, 0, 2.97997, 0)
+
+[node name="RocketPlume3" parent="RocketEngine" index="2" instance=ExtResource("4_lhx4g")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 6, -2.60748, -1.50283, 0)

@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br5t0o3letq5f"
-path.s3tc="res://.godot/imported/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.s3tc.ctex"
+uid="uid://bwg2l1tai4xyr"
+path.s3tc="res://.godot/imported/Starship_Base_Color.png-c086e64a4995760522b125e45efc98ac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://content/spacex-starship/textures/Starship_Emissive.png"
-dest_files=["res://.godot/imported/Starship_Emissive.png-153dbb1684f7c703278c2b579c96fa4a.s3tc.ctex"]
+source_file="res://content/starship/textures/Starship_Base_Color.png"
+dest_files=["res://.godot/imported/Starship_Base_Color.png-c086e64a4995760522b125e45efc98ac.s3tc.ctex"]
 
 [params]
 
