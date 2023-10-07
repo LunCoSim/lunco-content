@@ -44,45 +44,31 @@ func _ready():
 		color_rect.hide()
 
 func _process(delta):
-	motion = Vector2(
-			Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
-			Input.get_action_strength("move_back") - Input.get_action_strength("move_forward"))
+	
 #	var camera_move = Vector2(
 #			Input.get_action_strength("view_right") - Input.get_action_strength("view_left"),
 #			Input.get_action_strength("view_up") - Input.get_action_strength("view_down"))
-	var camera_move = Vector2(0,0)
+	#var camera_move = Vector2(0,0)
+#
+	#var camera_speed_this_frame = delta * CAMERA_CONTROLLER_ROTATION_SPEED
+	#if aiming:
+		#camera_speed_this_frame *= 0.5
+	#rotate_camera(camera_move * camera_speed_this_frame)
 
-	var camera_speed_this_frame = delta * CAMERA_CONTROLLER_ROTATION_SPEED
+
 	if aiming:
-		camera_speed_this_frame *= 0.5
-	rotate_camera(camera_move * camera_speed_this_frame)
-	var current_aim = false
-
-	# Keep aiming if the mouse wasn't held for long enough.
-	if Input.is_action_just_released("aim") and aiming_timer <= AIM_HOLD_THRESHOLD:
-		current_aim = true
-		toggled_aim = true
-	else:
-		current_aim = toggled_aim or Input.is_action_pressed("aim")
-		if Input.is_action_just_pressed("aim"):
-			toggled_aim = false
-
-	if current_aim:
 		aiming_timer += delta
 	else:
 		aiming_timer = 0.0
 
-	if aiming != current_aim:
-		aiming = current_aim
+	#if aiming != current_aim:
+		#aiming = current_aim
 #		if aiming:
 #			camera_animation.play("shoot")
 #		else:
 #			camera_animation.play("far")
 
-	if Input.is_action_just_pressed("jump"):
-		jump.rpc()
 
-	shooting = Input.is_action_pressed("shoot")
 	if shooting:
 		pass
 #		var ch_pos = crosshair.position + crosshair.size * 0.5
@@ -112,8 +98,32 @@ func _input(event):
 		if aiming:
 			camera_speed_this_frame *= 0.75
 		rotate_camera(event.relative * camera_speed_this_frame)
+	
+	motion = Vector2(
+			Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
+			Input.get_action_strength("move_back") - Input.get_action_strength("move_forward"))
+	
+	var current_aim = false
 
+	# Keep aiming if the mouse wasn't held for long enough.
+	if Input.is_action_just_released("aim") and aiming_timer <= AIM_HOLD_THRESHOLD:
+		current_aim = true
+		toggled_aim = true
+	else:
+		current_aim = toggled_aim or Input.is_action_pressed("aim")
+		if Input.is_action_just_pressed("aim"):
+			toggled_aim = false
 
+	
+
+	if aiming != current_aim:
+		aiming = current_aim
+		
+	if Input.is_action_just_pressed("jump"):
+		jump.rpc()
+
+	shooting = Input.is_action_pressed("shoot")
+	
 func rotate_camera(move):
 	pass
 #	camera_base.rotate_y(-move.x)
