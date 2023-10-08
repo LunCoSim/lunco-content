@@ -21,6 +21,7 @@ var motion = Vector2()
 @onready var initial_position = transform.origin
 @onready var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector")
 
+@onready var player_input = $InputSynchronizer
 @onready var animation_tree = $AnimationTree
 @onready var player_model = $PlayerModel
 @onready var shoot_from = player_model.get_node("Robot_Skeleton/Skeleton3D/GunBone/ShootFrom")
@@ -37,21 +38,8 @@ var motion = Vector2()
 		player_id = value
 		$InputSynchronizer.set_multiplayer_authority(value)
 		
-		
 @export var current_animation := ANIMATIONS.WALK
 
-
-#-------------------------------------------
-var jumping: = false
-var aiming:=false
-var shooting:=false
-
-var shoot_target:=Vector3.ZERO
-var aim_rotation:= Vector3.ZERO
-var motion_input:=Vector2.ZERO
-var camera_toration_bases:= Basis.IDENTITY
-
-#-------------------------------------------
 func _ready():
 	
 	# Pre-initialize orientation transform.
@@ -59,8 +47,6 @@ func _ready():
 	orientation.origin = Vector3()
 	if not multiplayer.is_server():
 		set_process(false)
-		
-	#set_multiplayer_authority(str(name).to_int())
 
 
 
@@ -69,7 +55,7 @@ func _physics_process(delta: float):
 		apply_input(delta)
 	else:
 		animate(current_animation, delta)
-		
+
 # ------------
 func animate(anim: int, delta:=0.0):
 	current_animation = anim
@@ -83,8 +69,7 @@ func animate(anim: int, delta:=0.0):
 	elif anim == ANIMATIONS.STRAFE:
 		animation_tree["parameters/state/transition_request"] = "strafe"
 		# Change aim according to camera rotation.
-		#animation_tree["parameters/aim/add_amount"] = player_input.get_aim_rotation()
-		animation_tree["parameters/aim/add_amount"] = aim_rotation		
+		animation_tree["parameters/aim/add_amount"] = player_input.get_aim_rotation()
 		# The animation's forward/backward axis is reversed.
 		animation_tree["parameters/strafe/blend_position"] = Vector2(motion.x, -motion.y)
 
@@ -98,16 +83,9 @@ func animate(anim: int, delta:=0.0):
 
 
 func apply_input(delta: float):
-	motion_input
-	camera_toration_bases
-	#motion = motion.lerp(player_input.motion, MOTION_INTERPOLATE_SPEED * delta)
-#
-	#var camera_basis : Basis = player_input.get_camera_rotation_basis()
-	
-	motion = motion.lerp(motion_input, MOTION_INTERPOLATE_SPEED * delta)
+	motion = motion.lerp(player_input.motion, MOTION_INTERPOLATE_SPEED * delta)
 
-	var camera_basis : Basis = camera_toration_bases
-	
+	var camera_basis : Basis = player_input.get_camera_rotation_basis()
 	var camera_z := camera_basis.z
 	var camera_x := camera_basis.x
 
@@ -125,25 +103,24 @@ func apply_input(delta: float):
 
 	var on_air = airborne_time > MIN_AIRBORNE_TIME
 
-	if not on_air and jumping:
+	if not on_air and player_input.jumping:
 		velocity.y = JUMP_SPEED
 		on_air = true
 		# Increase airborne time so next frame on_air is still true
 		airborne_time = MIN_AIRBORNE_TIME
 		jump.rpc()
 
-	jumping = false
+	player_input.jumping = false
 
 	if on_air:
 		if (velocity.y > 0):
 			animate(ANIMATIONS.JUMP_UP, delta)
 		else:
 			animate(ANIMATIONS.JUMP_DOWN, delta)
-	elif aiming:
+	elif player_input.aiming:
 		# Convert orientation to quaternions for interpolating rotation.
 		var q_from = orientation.basis.get_rotation_quaternion()
-		var q_to = camera_toration_bases.get_rotation_quaternion()
-		
+		var q_to = player_input.get_camera_base_quaternion()
 		# Interpolate current rotation with desired one.
 		orientation.basis = Basis(q_from.slerp(q_to, delta * ROTATION_INTERPOLATE_SPEED))
 
@@ -152,9 +129,9 @@ func apply_input(delta: float):
 
 		root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
 
-		if shooting and fire_cooldown.time_left == 0:
+		if player_input.shooting and fire_cooldown.time_left == 0:
 			var shoot_origin = shoot_from.global_transform.origin
-			var shoot_dir = (shoot_target - shoot_origin).normalized()
+			var shoot_dir = (player_input.shoot_target - shoot_origin).normalized()
 
 			var bullet = preload("res://content/gobot/bullet/bullet.tscn").instantiate()
 			get_parent().add_child(bullet, true)
@@ -184,7 +161,6 @@ func apply_input(delta: float):
 	velocity.x = h_velocity.x
 	velocity.z = h_velocity.z
 	velocity += gravity * delta
-	
 	set_velocity(velocity)
 	set_up_direction(Vector3.UP)
 	move_and_slide()
