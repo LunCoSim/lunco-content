@@ -184,6 +184,7 @@ func apply_input(delta: float):
 	velocity.x = h_velocity.x
 	velocity.z = h_velocity.z
 	velocity += gravity * delta
+	
 	set_velocity(velocity)
 	set_up_direction(Vector3.UP)
 	move_and_slide()
