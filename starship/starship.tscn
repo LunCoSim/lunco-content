@@ -39,6 +39,7 @@ replication_config = SubResource("SceneReplicationConfig_k7qe3")
 
 [node name="RocketEngine" type="Node3D" parent="." index="5"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25.2304)
+visible = false
 script = ExtResource("3_s0r5e")
 
 [node name="RocketPlume" parent="RocketEngine" index="0" instance=ExtResource("4_lhx4g")]
