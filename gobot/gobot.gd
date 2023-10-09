@@ -162,13 +162,7 @@ func apply_input(delta: float):
 	# Apply root motion to orientation.
 	orientation *= root_motion
 
-	var h_velocity = orientation.origin / delta
-	velocity.x = h_velocity.x
-	velocity.z = h_velocity.z
-	velocity += gravity * delta
-	set_velocity(velocity)
-	set_up_direction(Vector3.UP)
-	move_and_slide()
+	do_move(delta)
 
 	orientation.origin = Vector3() # Clear accumulated root motion displacement (was applied to speed).
 	orientation = orientation.orthonormalized() # Orthonormalize orientation.
@@ -179,6 +173,14 @@ func apply_input(delta: float):
 	if transform.origin.y < -40:
 		transform.origin = initial_position
 
+func do_move(delta):
+	var h_velocity = orientation.origin / delta
+	velocity.x = h_velocity.x
+	velocity.z = h_velocity.z
+	velocity += gravity * delta
+	set_velocity(velocity)
+	set_up_direction(Vector3.UP)
+	move_and_slide()
 
 @rpc("call_local")
 func jump():
