@@ -17,6 +17,7 @@ var airborne_time = 100
 var orientation = Transform3D()
 var root_motion = Transform3D()
 var motion = Vector2()
+var camera_rotation_bases: Basis = Basis.IDENTITY
 
 @onready var initial_position = transform.origin
 @onready var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector")
@@ -91,7 +92,8 @@ func animate(anim: int, delta:=0.0):
 func apply_input(delta: float):
 	motion = motion.lerp(input_motion, MOTION_INTERPOLATE_SPEED * delta)
 
-	var camera_basis : Basis = player_input.get_camera_rotation_basis()
+	var camera_basis : Basis = camera_rotation_bases
+	
 	var camera_z := camera_basis.z
 	var camera_x := camera_basis.x
 
