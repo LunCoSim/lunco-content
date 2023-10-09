@@ -33,6 +33,11 @@ var motion = Vector2()
 @onready var sound_effect_land = sound_effects.get_node("Land")
 @onready var sound_effect_shoot = sound_effects.get_node("Shoot")
 
+#-------------------------------------
+
+var aim_rotation
+
+#-------------------------------------
 @export var player_id := 1 :
 	set(value):
 		player_id = value
@@ -69,7 +74,7 @@ func animate(anim: int, delta:=0.0):
 	elif anim == ANIMATIONS.STRAFE:
 		animation_tree["parameters/state/transition_request"] = "strafe"
 		# Change aim according to camera rotation.
-		animation_tree["parameters/aim/add_amount"] = player_input.get_aim_rotation()
+		animation_tree["parameters/aim/add_amount"] = aim_rotation
 		# The animation's forward/backward axis is reversed.
 		animation_tree["parameters/strafe/blend_position"] = Vector2(motion.x, -motion.y)
 
