@@ -17,12 +17,10 @@ var airborne_time = 100
 var orientation = Transform3D()
 var root_motion = Transform3D()
 var motion = Vector2()
-var camera_rotation_bases: Basis = Basis.IDENTITY
 
 @onready var initial_position = transform.origin
 @onready var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector")
 
-@onready var player_input = $InputSynchronizer
 @onready var animation_tree = $AnimationTree
 @onready var player_model = $PlayerModel
 @onready var shoot_from = player_model.get_node("Robot_Skeleton/Skeleton3D/GunBone/ShootFrom")
@@ -38,6 +36,13 @@ var camera_rotation_bases: Basis = Basis.IDENTITY
 
 var aim_rotation
 var input_motion: = Vector2.ZERO
+var camera_rotation_bases: Basis = Basis.IDENTITY
+var camera_base_quaternion: Quaternion = Quaternion.IDENTITY
+
+var jumping: bool = false
+var shooting: bool = false
+var aiming: bool = false
+var shoot_target: = Vector3.ZERO
 
 #-------------------------------------
 @export var player_id := 1 :
@@ -111,24 +116,24 @@ func apply_input(delta: float):
 
 	var on_air = airborne_time > MIN_AIRBORNE_TIME
 
-	if not on_air and player_input.jumping:
+	if not on_air and jumping:
 		velocity.y = JUMP_SPEED
 		on_air = true
 		# Increase airborne time so next frame on_air is still true
 		airborne_time = MIN_AIRBORNE_TIME
 		jump.rpc()
 
-	player_input.jumping = false
+	jumping = false
 
 	if on_air:
 		if (velocity.y > 0):
 			animate(ANIMATIONS.JUMP_UP, delta)
 		else:
 			animate(ANIMATIONS.JUMP_DOWN, delta)
-	elif player_input.aiming:
+	elif aiming:
 		# Convert orientation to quaternions for interpolating rotation.
 		var q_from = orientation.basis.get_rotation_quaternion()
-		var q_to = player_input.get_camera_base_quaternion()
+		var q_to = camera_base_quaternion
 		# Interpolate current rotation with desired one.
 		orientation.basis = Basis(q_from.slerp(q_to, delta * ROTATION_INTERPOLATE_SPEED))
 
@@ -137,9 +142,9 @@ func apply_input(delta: float):
 
 		root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
 
-		if player_input.shooting and fire_cooldown.time_left == 0:
+		if shooting and fire_cooldown.time_left == 0:
 			var shoot_origin = shoot_from.global_transform.origin
-			var shoot_dir = (player_input.shoot_target - shoot_origin).normalized()
+			var shoot_dir = (shoot_target - shoot_origin).normalized()
 
 			var bullet = preload("res://content/gobot/bullet/bullet.tscn").instantiate()
 			get_parent().add_child(bullet, true)
