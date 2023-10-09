@@ -18,7 +18,6 @@ var orientation = Transform3D()
 var root_motion = Transform3D()
 var motion = Vector2()
 
-@onready var initial_position = transform.origin
 @onready var gravity = ProjectSettings.get_setting("physics/3d/default_gravity") * ProjectSettings.get_setting("physics/3d/default_gravity_vector")
 
 @onready var animation_tree = $AnimationTree
@@ -34,6 +33,10 @@ var motion = Vector2()
 
 #-------------------------------------
 
+@export var current_animation := ANIMATIONS.WALK
+
+#-------------------------------------
+
 var aim_rotation
 var input_motion: = Vector2.ZERO
 var camera_rotation_bases: Basis = Basis.IDENTITY
@@ -45,12 +48,7 @@ var aiming: bool = false
 var shoot_target: = Vector3.ZERO
 
 #-------------------------------------
-@export var player_id := 1 :
-	set(value):
-		player_id = value
-		$InputSynchronizer.set_multiplayer_authority(value)
 		
-@export var current_animation := ANIMATIONS.WALK
 
 func _ready():
 	
@@ -171,7 +169,6 @@ func apply_input(delta: float):
 	orientation *= root_motion #????? What's happening here?
 	do_move(delta)
 	orient_player_model()
-	respawn_if_fallen()
 
 func orient_player_model():
 	orientation.origin = Vector3() # Clear accumulated root motion displacement (was applied to speed).
@@ -187,11 +184,6 @@ func do_move(delta):
 	set_velocity(velocity)
 	set_up_direction(Vector3.UP)
 	move_and_slide()
-
-func respawn_if_fallen():
-	# If we're below -40, respawn (teleport to the initial position).
-	if transform.origin.y < -40:
-		transform.origin = initial_position
 
 @rpc("call_local")
 func jump():
