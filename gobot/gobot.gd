@@ -36,6 +36,7 @@ var motion = Vector2()
 #-------------------------------------
 
 var aim_rotation
+var input_motion: = Vector2.ZERO
 
 #-------------------------------------
 @export var player_id := 1 :
@@ -88,7 +89,7 @@ func animate(anim: int, delta:=0.0):
 
 
 func apply_input(delta: float):
-	motion = motion.lerp(player_input.motion, MOTION_INTERPOLATE_SPEED * delta)
+	motion = motion.lerp(input_motion, MOTION_INTERPOLATE_SPEED * delta)
 
 	var camera_basis : Basis = player_input.get_camera_rotation_basis()
 	var camera_z := camera_basis.z
@@ -160,18 +161,16 @@ func apply_input(delta: float):
 		root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
 
 	# Apply root motion to orientation.
-	orientation *= root_motion
-
+	orientation *= root_motion #????? What's happening here?
 	do_move(delta)
+	orient_player_model()
+	respawn_if_fallen()
 
+func orient_player_model():
 	orientation.origin = Vector3() # Clear accumulated root motion displacement (was applied to speed).
 	orientation = orientation.orthonormalized() # Orthonormalize orientation.
 
 	player_model.global_transform.basis = orientation.basis
-
-	# If we're below -40, respawn (teleport to the initial position).
-	if transform.origin.y < -40:
-		transform.origin = initial_position
 
 func do_move(delta):
 	var h_velocity = orientation.origin / delta
@@ -181,6 +180,11 @@ func do_move(delta):
 	set_velocity(velocity)
 	set_up_direction(Vector3.UP)
 	move_and_slide()
+
+func respawn_if_fallen():
+	# If we're below -40, respawn (teleport to the initial position).
+	if transform.origin.y < -40:
+		transform.origin = initial_position
 
 @rpc("call_local")
 func jump():
