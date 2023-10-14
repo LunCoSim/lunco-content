@@ -31,7 +31,8 @@ func _ready():
 		set_process(false)
 	
 	if controller != null:
-		controller.do_init() 
+		controller.orientation = player_model.global_transform
+		controller.orientation.origin = Vector3()
 
 func _process(delta):
 	if controller != null:
@@ -102,7 +103,6 @@ func shoot():
 @rpc("call_local")
 func hit():
 	add_camera_shake_trauma(.75)
-
 
 @rpc("call_local")
 func add_camera_shake_trauma(amount):
