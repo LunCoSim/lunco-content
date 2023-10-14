@@ -1,11 +1,13 @@
-[gd_scene load_steps=4 format=3 uid="uid://db37rii8injqd"]
+[gd_scene load_steps=5 format=3 uid="uid://db37rii8injqd"]
 
 [ext_resource type="PackedScene" uid="uid://cydyol1y0iq2y" path="res://content/animated-astronaut-character-in-space-suit-loop/source/Walking astronaut.glb" id="1_cd2hw"]
+[ext_resource type="Script" path="res://core/entities/character.gd" id="1_i2ku6"]
 [ext_resource type="PackedScene" uid="uid://cibc2v3g1bk4g" path="res://controllers/character/character-controller.tscn" id="2_n4hyy"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8s6cg"]
 
 [node name="AstronautEntity" type="CharacterBody3D"]
+script = ExtResource("1_i2ku6")
 
 [node name="CapsuleShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

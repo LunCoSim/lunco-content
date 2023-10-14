@@ -44,8 +44,13 @@ func _process(delta):
 			else:
 				current_animation = ANIMATIONS.JUMP_DOWN
 		elif controller.aiming:
+			
+			controller.root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
+			
 			current_animation = ANIMATIONS.STRAFE
 		else:
+			controller.root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
+			
 			current_animation = ANIMATIONS.WALK
 
 	animate(current_animation, delta)
