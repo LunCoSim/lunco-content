@@ -29,18 +29,30 @@ enum ANIMATIONS {JUMP_UP, JUMP_DOWN, STRAFE, WALK}
 func _ready():
 	if not multiplayer.is_server():
 		set_process(false)
+	
+	if controller != null:
+		controller.do_init() 
+
+func _process(delta):
+	if controller != null:
+		player_model.global_transform.basis = controller.orientation.basis
 		
-	controller.do_init()
+		if controller.on_air:
+			if (velocity.y > 0):
+				current_animation = ANIMATIONS.JUMP_UP
+			else:
+				current_animation = ANIMATIONS.JUMP_DOWN
+		elif controller.aiming:
+			current_animation = ANIMATIONS.STRAFE
+		else:
+			current_animation = ANIMATIONS.WALK
 
-
-
-func _physics_process(delta: float):	
-	if not is_multiplayer_authority():
-		animate(current_animation, delta)
+	animate(current_animation, delta)
 
 # ------------
 
 func animate(anim: int, delta:=0.0):
+	
 	current_animation = anim
 
 	if anim == ANIMATIONS.JUMP_UP:
@@ -64,20 +76,15 @@ func animate(anim: int, delta:=0.0):
 		# Blend position for walk speed based checked motion.
 		animation_tree["parameters/walk/blend_position"] = Vector2(controller.motion.length(), 0)
 
-
-
-
 @rpc("call_local")
 func jump():
 	animate(ANIMATIONS.JUMP_UP)
 	sound_effect_jump.play()
 
-
 @rpc("call_local")
 func land():
 	animate(ANIMATIONS.JUMP_DOWN)
 	sound_effect_land.play()
-
 
 @rpc("call_local")
 func shoot():
