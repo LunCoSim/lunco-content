@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d32imt1p2u7ng"
-path.bptc="res://.godot/imported/ldem_16_uint.exr-7716751953a2cc0ec9d357680695a351.bptc.ctex"
+path="res://.godot/imported/ldem_16_uint.exr-7716751953a2cc0ec9d357680695a351.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,19 +12,19 @@ metadata={
 [deps]
 
 source_file="res://content/nasa_cgi_kit/ldem_16_uint.exr"
-dest_files=["res://.godot/imported/ldem_16_uint.exr-7716751953a2cc0ec9d357680695a351.bptc.ctex"]
+dest_files=["res://.godot/imported/ldem_16_uint.exr-7716751953a2cc0ec9d357680695a351.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=false
+compress/high_quality=true
 compress/lossy_quality=0.7
-compress/hdr_compression=1
+compress/hdr_compression=0
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
-roughness/mode=2
+roughness/mode=0
 roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false

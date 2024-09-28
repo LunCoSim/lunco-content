@@ -1,4 +1,3 @@
-@icon("res://entities/character_entity.svg")
 @tool
 class_name Gobot
 extends LCCharacterBody

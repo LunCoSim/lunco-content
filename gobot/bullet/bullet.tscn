@@ -1,17 +1,17 @@
-[gd_scene load_steps=57 format=3]
+[gd_scene load_steps=57 format=3 uid="uid://xiqtii3mmism"]
 
-[ext_resource type="Script" path="res://content/player/bullet/bullet.gd" id="1"]
-[ext_resource type="ArrayMesh" uid="uid://dqkkefcnt0erw" path="res://content/player/effects_shared/BlastMesh_Sphere.mesh" id="2"]
-[ext_resource type="AudioStream" uid="uid://c0bpunl6shvlr" path="res://content/player/bullet/bullet_explode.wav" id="3"]
-[ext_resource type="Material" uid="uid://bxjcw6j767jtn" path="res://content/player/bullet/effect/BlastMaterial.tres" id="4"]
-[ext_resource type="Material" path="res://content/player/bullet/effect/light_rays_material.tres" id="5"]
-[ext_resource type="Texture2D" uid="uid://d17qvns23fvuv" path="res://content/player/bullet/blue_myst.png" id="8"]
-[ext_resource type="Material" path="res://content/player/bullet/bullet_material.tres" id="9"]
+[ext_resource type="Script" path="res://content/gobot/bullet/bullet.gd" id="1"]
+[ext_resource type="ArrayMesh" uid="uid://dqkkefcnt0erw" path="res://content/gobot/effects_shared/BlastMesh_Sphere.mesh" id="2"]
+[ext_resource type="AudioStream" uid="uid://c0bpunl6shvlr" path="res://content/gobot/bullet/bullet_explode.wav" id="3"]
+[ext_resource type="Material" uid="uid://cpxu75utpfnj6" path="res://content/gobot/bullet/effect/BlastMaterial.tres" id="4"]
+[ext_resource type="Material" path="res://content/gobot/bullet/effect/light_rays_material.tres" id="5"]
+[ext_resource type="Texture2D" uid="uid://d17qvns23fvuv" path="res://content/gobot/bullet/blue_myst.png" id="8"]
+[ext_resource type="Material" path="res://content/gobot/bullet/bullet_material.tres" id="9"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_peqai"]
 properties/0/path = NodePath(".:global_transform")
 properties/0/spawn = true
-properties/0/sync = true
+properties/0/replication_mode = 1
 
 [sub_resource type="SphereMesh" id="SphereMesh_ku2wu"]
 radial_segments = 9
@@ -173,7 +173,7 @@ tracks/11/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_dbep6"]
 _data = {
-"explode": SubResource("Animation_8lnsf")
+&"explode": SubResource("Animation_8lnsf")
 }
 
 [sub_resource type="Gradient" id="Gradient_jp56w"]
@@ -314,8 +314,8 @@ curve = SubResource("Curve_5e7et")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_rdv14"]
 emission_shape = 1
 emission_sphere_radius = 0.4
-gravity = Vector3(0, 2, 0)
 angular_velocity_curve = SubResource("CurveTexture_160ax")
+gravity = Vector3(0, 2, 0)
 scale_curve = SubResource("CurveTexture_v5ggx")
 color_ramp = SubResource("GradientTexture2D_hfu4w")
 
