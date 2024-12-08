@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/Langrenus_LP.fbx-2a28bdc566906165e527bef71300
 
 [params]
 
-nodes/root_type="LCMap"
+nodes/root_type="Node3D"
 nodes/root_name="LangrenusCrater"
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
@@ -37,6 +37,10 @@ _subresources={
 "1": {
 "use_external/enabled": true,
 "use_external/path": "res://content/maps/Langrenus/textures/Langrenus_material_3d.tres"
+},
+"2": {
+"use_external/enabled": true,
+"use_external/path": ""
 }
 },
 "meshes": {
@@ -48,7 +52,6 @@ _subresources={
 "lods/normal_split_angle": 25.0,
 "lods/raycast_normals": false,
 "save_to_file/enabled": false,
-"save_to_file/make_streamable": true,
 "save_to_file/path": "res://content/maps/Langrenus/LangrenusMesh.res"
 }
 },
