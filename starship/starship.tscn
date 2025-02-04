@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/starship/source/SpaceX_Starship.fbx" id="1_opwl0"]
 [ext_resource type="Script" uid="uid://bo850ycq25swc" path="res://content/starship/starship.gd" id="1_vljpq"]
 [ext_resource type="Script" uid="uid://bbpvp5krmdepb" path="res://controllers/spacecraft/spacecraft-controller.gd" id="2_fwmh4"]
-[ext_resource type="Script" uid="uid://c3pros47g86k" path="res://components/rocket-engine/rocket-engine.gd" id="3_s0r5e"]
+[ext_resource type="Script" uid="uid://c3pros47g86k" path="res://core/components/rocket-engine/rocket-engine.gd" id="3_s0r5e"]
 [ext_resource type="PackedScene" uid="uid://co1mar6mmv7f1" path="res://core/models/rocket-plume/rocket-plume-2d.tscn" id="4_lhx4g"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1adpw"]
