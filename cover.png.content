@@ -1,0 +1,12 @@
+[source]
+url="https://github.com/LunCoSim/lunco-content/raw/refs/heads/main/cover.png?download="
+size=1677312
+checksum="sha256:"
+
+[metadata]
+description="LunCo cover image showing Starship landing on the Moon"
+author="LunCo"
+license="MIT"
+date_created="2024-03-27"
+type="cover_art"
+tags=["starship", "moon", "landing", "cover"] 
