@@ -1,0 +1,9 @@
+[source]
+url="https://upload.wikimedia.org/wikipedia/commons/6/60/ESO_-_Milky_Way.jpg"
+size=7340032
+checksum="sha256:"
+
+[metadata]
+description="Milky Way image from ESO"
+author="ESO"
+license="CC-BY" 
