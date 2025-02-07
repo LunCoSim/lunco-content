@@ -1,0 +1,12 @@
+[source]
+url="https://media.githubusercontent.com/media/LunCoSim/lunco-content/5509cce52a5fee036eaa6f10ec79f76df914aa74/planets/ldem_16_normal_map.png"  # Need to upload and get IPFS hash
+size=7130112  # 6.8MB
+checksum="sha256:"
+
+[metadata]
+description="Lunar Digital Elevation Model (LDEM) normal map, 16 bits per pixel"
+author="NASA"
+license="Public Domain"
+source_url="https://astrogeology.usgs.gov/search/map/Moon/LMMP/LOLA-derived/Lunar_LRO_LOLA_Global_LDEM_118m_Mar2014"
+type="heightmap_normal"
+tags=["moon", "elevation", "normal_map", "nasa", "ldem"] 

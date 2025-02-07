@@ -1,0 +1,12 @@
+[source]
+url="https://media.githubusercontent.com/media/LunCoSim/lunco-content/f2a409fa0827125bf7816c53d2a5f6a139b21a5a/planets/Earth.jpeg"  # Need to upload and get IPFS hash
+size=344064  # 336KB
+checksum="sha256:"
+
+[metadata]
+description="Earth texture map with clouds and surface features"
+author="NASA"
+license="Public Domain"
+source_url="https://visibleearth.nasa.gov/"
+type="planet_texture"
+tags=["earth", "surface", "texture", "nasa", "clouds"] 
