@@ -1,0 +1,13 @@
+[source]
+url="https://github.com/LunCoSim/lunco-content/raw/276603ef2f12b72629a5777fc6fd143af1baa0fa/nasa_cgi_kit/ldem_16.png"
+size=22020096
+checksum="sha256:"
+
+[metadata]
+description="Lunar Digital Elevation Model (LDEM) 16-bit heightmap in PNG format"
+author="NASA/GSFC/Arizona State University"
+license="Public Domain"
+source_url="https://svs.gsfc.nasa.gov/4720"
+type="heightmap"
+format="png"
+tags=["moon", "heightmap", "nasa", "ldem", "elevation", "terrain"] 
