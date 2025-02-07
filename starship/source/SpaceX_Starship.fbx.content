@@ -1,5 +1,5 @@
 [source]
-url="https://github.com/LunCoSim/lunco-content/blob/f2a409fa0827125bf7816c53d2a5f6a139b21a5a/spacex-starship/source/SpaceX_Starship.fbx"  # Need to upload and get IPFS hash
+url="https://github.com/LunCoSim/lunco-content/raw/ffdb9e2fb4223ff7b36bede566573a91f9a1862e/starship/source/SpaceX_Starship.fbx"  # Need to upload and get IPFS hash
 size=658432  # 643KB
 checksum="sha256:"
 
