@@ -1,0 +1,12 @@
+[source]
+url="https://media.githubusercontent.com/media/LunCoSim/lunco-content/main/maps/Langrenus/textures/1_Roughness.jpg"
+size=3041280
+checksum="sha256:"
+
+[metadata]
+description="Roughness texture for Langrenus crater model"
+author="NASA/USGS/Sketchfab"
+license="CC-BY"
+date_created="2024-04-01"
+type="texture"
+tags=["moon", "crater", "langrenus", "texture", "roughness"] 

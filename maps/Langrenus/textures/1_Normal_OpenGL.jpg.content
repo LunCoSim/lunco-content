@@ -1,0 +1,12 @@
+[source]
+url="https://media.githubusercontent.com/media/LunCoSim/lunco-content/main/maps/Langrenus/textures/1_Normal_OpenGL.jpg"
+size=5873664
+checksum="sha256:"
+
+[metadata]
+description="Normal map texture for Langrenus crater model"
+author="NASA/USGS/Sketchfab"
+license="CC-BY"
+date_created="2024-04-01"
+type="texture"
+tags=["moon", "crater", "langrenus", "texture", "normal_map"] 

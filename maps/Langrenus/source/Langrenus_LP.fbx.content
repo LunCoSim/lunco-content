@@ -1,0 +1,12 @@
+[source]
+url="https://media.githubusercontent.com/media/LunCoSim/lunco-content/ffdb9e2fb4223ff7b36bede566573a91f9a1862e/maps/Langrenus/source/Langrenus_LP.fbx"
+size=411648
+checksum="sha256:"
+
+[metadata]
+description="3D model of Langrenus crater on the Moon"
+author="NASA/USGS/Sketchfab"
+license="CC-BY"
+date_created="2024-04-01"
+type="3d_model"
+tags=["moon", "crater", "langrenus", "terrain"] 
