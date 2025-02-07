@@ -1,0 +1,13 @@
+[source]
+url="https://github.com/LunCoSim/lunco-content/raw/276603ef2f12b72629a5777fc6fd143af1baa0fa/nasa_cgi_kit/lroc_color_poles_8k.png"
+size=47185920
+checksum="sha256:"
+
+[metadata]
+description="LROC WAC Color Poles Mosaic 8k resolution"
+author="NASA/GSFC/Arizona State University"
+license="Public Domain"
+source_url="https://svs.gsfc.nasa.gov/4720"
+type="moon_texture"
+format="png"
+tags=["moon", "texture", "nasa", "lroc", "poles", "color"] 
