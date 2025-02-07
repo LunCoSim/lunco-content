@@ -1,0 +1,12 @@
+[source]
+url="https://github.com/LunCoSim/lunco-content/raw/276603ef2f12b72629a5777fc6fd143af1baa0fa/starship/textures/Starship_Normal_DirectX.png"
+size=15728640
+checksum="sha256:"
+
+[metadata]
+description="SpaceX Starship normal map texture (DirectX format)"
+author="MartianDays (https://sketchfab.com/3d-models/spacex-starship-a8a0b69f776841a1a465cd9fb3762fd2)"
+license="MIT"
+type="texture"
+format="png"
+tags=["starship", "texture", "normal_map", "pbr"] 

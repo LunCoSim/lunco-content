@@ -1,11 +1,11 @@
 [source]
-url="https://github.com/LunCoSim/lunco-content/raw/ffdb9e2fb4223ff7b36bede566573a91f9a1862e/starship/source/SpaceX_Starship.fbx"  # Need to upload and get IPFS hash
-size=658432  # 643KB
+url="https://github.com/LunCoSim/lunco-content/raw/ffdb9e2fb4223ff7b36bede566573a91f9a1862e/starship/source/SpaceX_Starship.fbx"
+size=658432
 checksum="sha256:"
 
 [metadata]
 description="SpaceX Starship 3D model"
-author="LunCo"
+author="MartianDays (https://sketchfab.com/3d-models/spacex-starship-a8a0b69f776841a1a465cd9fb3762fd2)"
 license="MIT"
 type="3d_model"
 format="fbx"
