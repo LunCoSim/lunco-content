@@ -1,0 +1,12 @@
+[source]
+url="https://github.com/LunCoSim/lunco-content/raw/276603ef2f12b72629a5777fc6fd143af1baa0fa/starship/textures/Starship.material"
+size=1228
+checksum="sha256:"
+
+[metadata]
+description="SpaceX Starship PBR material configuration for Godot engine"
+author="LunCo"
+license="MIT"
+type="material"
+format="godot_material"
+tags=["starship", "material", "pbr", "godot"] 
