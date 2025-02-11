@@ -1,4 +1,4 @@
-@icon("res://entities/starship_entity.svg")
+@icon("res://entities/starship.svg")
 extends Node3D
 
 func _on_spacecraft_controller_thrusted(enabled):
