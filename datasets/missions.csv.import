@@ -1,17 +1,3 @@
 [remap]
 
-importer="csv_translation"
-type="Translation"
-uid="uid://5t7isc0dg8ig"
-
-[deps]
-
-files=["res://content/datasets/missions.Mission.translation", "res://content/datasets/missions.Status.translation", "res://content/datasets/missions.Launch Date.translation", "res://content/datasets/missions.Mission type.translation", "res://content/datasets/missions.Landing location.translation", "res://content/datasets/missions.latitude.translation", "res://content/datasets/missions.longitude.translation", "res://content/datasets/missions.Landing date.translation"]
-
-source_file="res://content/datasets/missions.csv"
-dest_files=["res://content/datasets/missions.Mission.translation", "res://content/datasets/missions.Status.translation", "res://content/datasets/missions.Launch Date.translation", "res://content/datasets/missions.Mission type.translation", "res://content/datasets/missions.Landing location.translation", "res://content/datasets/missions.latitude.translation", "res://content/datasets/missions.longitude.translation", "res://content/datasets/missions.Landing date.translation"]
-
-[params]
-
-compress=true
-delimiter=0
+importer="keep"
