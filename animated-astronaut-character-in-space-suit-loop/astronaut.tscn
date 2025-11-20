@@ -3311,6 +3311,8 @@ libraries = {
 autoplay = "wave"
 
 [node name="PlayerController" parent="." instance=ExtResource("2_n4hyy")]
+use_root_motion = false
+
 
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_sync")
