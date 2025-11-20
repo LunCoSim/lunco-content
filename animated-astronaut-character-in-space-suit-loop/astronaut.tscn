@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://db37rii8injqd"]
+[gd_scene load_steps=11 format=3 uid="uid://db37rii8injqd"]
 
 [ext_resource type="PackedScene" uid="uid://cydyol1y0iq2y" path="res://content/animated-astronaut-character-in-space-suit-loop/source/Walking astronaut.glb" id="1_cd2hw"]
 [ext_resource type="Script" path="res://core/entities/character.gd" id="1_i2ku6"]
@@ -3196,6 +3196,14 @@ _data = {
 &"floating": SubResource("Animation_pp3si")
 }
 
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_sync"]
+properties/0/path = NodePath(".:position")
+properties/0/spawn = true
+properties/0/replication_mode = 2
+properties/1/path = NodePath(".:rotation")
+properties/1/spawn = true
+properties/1/replication_mode = 2
+
 [node name="AstronautEntity" type="CharacterBody3D"]
 script = ExtResource("1_i2ku6")
 
@@ -3303,5 +3311,8 @@ libraries = {
 autoplay = "wave"
 
 [node name="PlayerController" parent="." instance=ExtResource("2_n4hyy")]
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_sync")
 
 [editable path="Astronaut"]
