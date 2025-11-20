@@ -56,7 +56,7 @@ func _process(delta):
 
 # ------------
 
-func animate(anim: int, delta:=0.0):
+func animate(anim: ANIMATIONS, delta:=0.0):
 	
 	current_animation = anim
 
