@@ -26,9 +26,6 @@ enum ANIMATIONS {JUMP_UP, JUMP_DOWN, STRAFE, WALK}
 #-------------------------------------
 
 func _ready():
-	if not multiplayer.is_server():
-		set_process(false)
-	
 	if controller != null:
 		controller.orientation = player_model.global_transform
 		controller.orientation.origin = Vector3()
