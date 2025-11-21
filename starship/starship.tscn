@@ -45,6 +45,7 @@ script = ExtResource("1_3y3t0")
 
 [node name="RocketEngine" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 1.57356e-28, 1, -4.26326e-14, -4.26326e-14, -21.912)
+visible = false
 script = ExtResource("2_qaffc")
 
 [node name="RocketPlume" parent="RocketEngine" instance=ExtResource("3_lsgpd")]
