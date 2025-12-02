@@ -1,6 +1,10 @@
 @icon("res://entities/starship.svg")
-extends Node3D
+extends LCSpacecraft
 
-func _on_spacecraft_controller_thrusted(enabled):
-	$RocketEngine.visible = enabled
-			
+# func _on_spacecraft_controller_thrusted(enabled):
+# 	print("Starship: Thrust ", "ON" if enabled else "OFF")
+# 	if has_node("RocketEngine"):
+# 		$RocketEngine.visible = enabled
+# 		print("Starship: RocketEngine visibility set to ", enabled)
+# 	else:
+# 		print("Starship: ERROR - RocketEngine node not found!")
