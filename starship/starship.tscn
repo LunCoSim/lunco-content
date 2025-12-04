@@ -50,14 +50,14 @@ script = ExtResource("4_oxygen")
 resource_id = "oxygen"
 capacity = 1170000.0
 tank_dry_mass = 50000.0
-current_amount = 1170000.0
+initial_fill_percentage = 100.0
 
 [node name="MethaneTank" type="Node3D" parent="."]
 script = ExtResource("5_methane")
 resource_id = "methane"
 capacity = 330000.0
 tank_dry_mass = 15000.0
-current_amount = 330000.0
+initial_fill_percentage = 100.0
 
 [node name="RocketEngine" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 1.57356e-28, 1, -4.26326e-14, -4.26326e-14, -21.912)
