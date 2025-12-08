@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://exet76y0islr"]
+[gd_scene load_steps=12 format=3 uid="uid://exet76y0islr"]
 
 [ext_resource type="Script" uid="uid://bbpvp5krmdepb" path="res://controllers/spacecraft/spacecraft-controller.gd" id="1_3y3t0"]
 [ext_resource type="PackedScene" uid="uid://c81ry3343bcav" path="res://content/starship/source/SpaceX_Starship.fbx" id="1_qaffc"]
@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://co1mar6mmv7f1" path="res://core/models/rocket-plume/rocket-plume-2d.tscn" id="3_lsgpd"]
 [ext_resource type="Script" uid="uid://cirjgs172jx8d" path="res://core/effectors/state/resource-tank-effector.gd" id="4_oxygen"]
 [ext_resource type="Script" uid="uid://cirjgs172jx8d" path="res://core/effectors/state/resource-tank-effector.gd" id="5_methane"]
+[ext_resource type="Script" path="res://core/effectors/dynamic/pump-effector.gd" id="6_fuel_pump"]
+[ext_resource type="Script" path="res://core/effectors/dynamic/pump-effector.gd" id="7_ox_pump"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_k7qe3"]
 properties/0/path = NodePath(".:position")
@@ -58,6 +60,20 @@ resource_id = "methane"
 capacity = 330000.0
 tank_dry_mass = 15000.0
 initial_fill_percentage = 100.0
+
+[node name="FuelPump" type="Node3D" parent="."]
+script = ExtResource("6_fuel_pump")
+max_pressure = 500000.0
+max_flow = 50.0
+source_path = NodePath("../MethaneTank")
+sink_path = NodePath("../RocketEngine")
+
+[node name="OxidizerPump" type="Node3D" parent="."]
+script = ExtResource("7_ox_pump")
+max_pressure = 500000.0
+max_flow = 180.0
+source_path = NodePath("../OxygenTank")
+sink_path = NodePath("../RocketEngine")
 
 [node name="RocketEngine" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 1.57356e-28, 1, -4.26326e-14, -4.26326e-14, -21.912)
