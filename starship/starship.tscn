@@ -64,14 +64,14 @@ initial_fill_percentage = 100.0
 [node name="FuelPump" type="Node3D" parent="."]
 script = ExtResource("6_fuel_pump")
 max_pressure = 500000.0
-max_flow = 50.0
+max_flow = 836.0
 source_path = NodePath("../MethaneTank")
 sink_path = NodePath("../RocketEngine")
 
 [node name="OxidizerPump" type="Node3D" parent="."]
 script = ExtResource("7_ox_pump")
 max_pressure = 500000.0
-max_flow = 180.0
+max_flow = 3008.0
 source_path = NodePath("../OxygenTank")
 sink_path = NodePath("../RocketEngine")
 
