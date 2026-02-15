@@ -26,6 +26,12 @@ properties/3/replication_mode = 1
 properties/4/path = NodePath(".:mass")
 properties/4/spawn = true
 properties/4/replication_mode = 2
+properties/5/path = NodePath(".:thrust_input")
+properties/5/spawn = true
+properties/5/replication_mode = 1
+properties/6/path = NodePath(".:torque_input")
+properties/6/spawn = true
+properties/6/replication_mode = 1
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1adpw"]
 radius = 5.44966
