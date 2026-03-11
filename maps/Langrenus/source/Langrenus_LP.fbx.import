@@ -15,9 +15,11 @@ dest_files=["res://.godot/imported/Langrenus_LP.fbx-2a28bdc566906165e527bef71300
 
 nodes/root_type="StaticBody3D"
 nodes/root_name="LangrenusCrater"
+nodes/root_script=null
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
 nodes/use_node_type_suffixes=true
 meshes/ensure_tangents=true
 meshes/generate_lods=true
@@ -32,14 +34,19 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
 _subresources={
 "materials": {
 "1": {
 "use_external/enabled": true,
-"use_external/path": "res://content/maps/Langrenus/textures/Langrenus_material_3d.tres"
+"use_external/fallback_path": "res://content/maps/Langrenus/textures/Langrenus_material_3d.tres",
+"use_external/path": "uid://b06jfhharyu0v"
 },
 "2": {
 "use_external/enabled": true,
+"use_external/fallback_path": "",
 "use_external/path": ""
 }
 },
@@ -52,3 +59,4 @@ _subresources={
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=2
+fbx/naming_version=2
