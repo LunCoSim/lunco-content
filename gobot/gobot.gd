@@ -31,8 +31,11 @@ func _ready():
 		controller.orientation.origin = Vector3()
 
 func _process(delta):
-	if controller != null:
+	if controller != null and controller.has_authority():
 		player_model.global_transform.basis = controller.orientation.basis
+		
+		# Fetch root motion from animation tree
+		controller.root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
 		
 		if controller.on_air:
 			if (velocity.y > 0):
@@ -40,13 +43,8 @@ func _process(delta):
 			else:
 				current_animation = ANIMATIONS.JUMP_DOWN
 		elif controller.aiming:
-			
-			controller.root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
-			
 			current_animation = ANIMATIONS.STRAFE
 		else:
-			controller.root_motion = Transform3D(animation_tree.get_root_motion_rotation(), animation_tree.get_root_motion_position())
-			
 			current_animation = ANIMATIONS.WALK
 
 	animate(current_animation, delta)
